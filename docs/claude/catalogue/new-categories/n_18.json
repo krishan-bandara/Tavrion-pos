@@ -1,0 +1,424 @@
+{
+ "items": [
+  {
+   "si": "සර්ෆ් එක්සෙල් ඊසි වොෂ් කුඩු 1kg",
+   "en": "Surf Excel Easy Wash Powder 1kg",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 720,
+   "stock": 6,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සර්ෆ් එක්සෙල් කුඩු 200g",
+   "en": "Surf Excel Powder 200g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 190,
+   "stock": 7,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රින් ඩිටර්ජන්ට් කුඩු 400g",
+   "en": "Rin Detergent Powder 400g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 310,
+   "stock": 8,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රින් ඩිටර්ජන්ට් කුඩු 200g",
+   "en": "Rin Detergent Powder 200g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 160,
+   "stock": 9,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඔමෝ ඩිටර්ජන්ට් කුඩු 400g",
+   "en": "Omo Detergent Powder 400g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 340,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සන්ලයිට් සබන් පෙත්ත 110g",
+   "en": "Sunlight Laundry Soap Bar 110g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 110,
+   "stock": 11,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රින් සබන් පෙත්ත 260g",
+   "en": "Rin Bar 260g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 190,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කම්ෆර්ට් රෙදි මෘදුකාරකය 400ml",
+   "en": "Comfort Fabric Softener 400ml",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 13,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කම්ෆර්ට් රෙදි මෘදුකාරකය 1.6L",
+   "en": "Comfort Fabric Softener 1.6L",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 14,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රෙදි නිල් බෝතලය 200ml",
+   "en": "Robin Liquid Blue 200ml",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 15,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "වැනිෂ් රෙදි පැල්ලම් ඉවත්කාරකය 450g",
+   "en": "Vanish Stain Remover Powder 450g",
+   "sub": "SUB079",
+   "unit": "pcs",
+   "price": 890,
+   "stock": 6,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සන්ලයිට් පිඟන් සේදුම් දියර 250ml",
+   "en": "Sunlight Dishwash Liquid 250ml",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 190,
+   "stock": 7,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සන්ලයිට් පිඟන් සේදුම් දියර 1L",
+   "en": "Sunlight Dishwash Liquid 1L",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 620,
+   "stock": 8,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විම් පිඟන් සේදුම් දියර 250ml",
+   "en": "Vim Dishwash Liquid 250ml",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 9,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විම් පිඟන් සේදුම් දියර 1L",
+   "en": "Vim Dishwash Liquid 1L",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 590,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විම් ලෙමන් පිඟන් සේදුම් දියර 500ml",
+   "en": "Vim Lemon Dishwash Liquid 500ml",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 330,
+   "stock": 11,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විම් පිඟන් සේදුම් කුඩු 500g",
+   "en": "Vim Dishwash Powder 500g",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සන්ලයිට් පිඟන් සේදුම් බාර් 120g",
+   "en": "Sunlight Dishwash Bar 120g",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 90,
+   "stock": 13,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලක්ස් පිඟන් සේදුම් දියර 500ml",
+   "en": "Lux Dishwash Liquid 500ml",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 340,
+   "stock": 14,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පිඟන් සේදුම් ස්පොන්ජ් 3pk",
+   "en": "Dishwash Sponge Scrubber 3pk",
+   "sub": "SUB080",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 15,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "හාර්පික් විෂබීජ නාශක වැසිකිළි පිරිසිදුකාරකය 1L",
+   "en": "Harpic Power Plus Toilet Cleaner 1L",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 890,
+   "stock": 6,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "හාර්පික් වැසිකිළි පිරිසිදුකාරකය 200ml",
+   "en": "Harpic Toilet Cleaner 200ml",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 230,
+   "stock": 7,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඩොමෙක්ස් වැසිකිළි පිරිසිදුකාරකය 1L",
+   "en": "Domex Toilet Cleaner 1L",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 620,
+   "stock": 8,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලයිසෝල් බිම් පිරිසිදුකාරකය 500ml",
+   "en": "Lysol Floor Cleaner 500ml",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 520,
+   "stock": 9,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලයිසෝල් බිම් පිරිසිදුකාරකය 975ml",
+   "en": "Lysol Floor Cleaner 975ml",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 890,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ක්ලෝරොක්ස් විෂබීජ නාශක පිරිසිදුකාරකය 500ml",
+   "en": "Clorox Disinfecting Cleaner 500ml",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 11,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මිස්ටර් මස්කල් මුළුතැන්ගෙය් පිරිසිදුකාරකය 500ml",
+   "en": "Mr Muscle Kitchen Cleaner 500ml",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 780,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මිස්ටර් මස්කල් වීදුරු පිරිසිදුකාරකය 500ml",
+   "en": "Mr Muscle Glass Cleaner 500ml",
+   "sub": "SUB081",
+   "unit": "pcs",
+   "price": 720,
+   "stock": 13,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඩෙටෝල් විෂබීජ නාශක දියර 250ml",
+   "en": "Dettol Antiseptic Liquid 250ml",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 520,
+   "stock": 14,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සැව්ලෝන් විෂබීජ නාශක දියර 100ml",
+   "en": "Savlon Antiseptic Liquid 100ml",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 15,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සැව්ලෝන් විෂබීජ නාශක දියර 500ml",
+   "en": "Savlon Antiseptic Liquid 500ml",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 950,
+   "stock": 6,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ජේස් ෆ්ලූයිඩ් 500ml",
+   "en": "Jeyes Fluid 500ml",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 690,
+   "stock": 7,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඩෙටෝල් බිම් පිරිසිදුකාරකය 500ml",
+   "en": "Dettol Floor Cleaner 500ml",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 640,
+   "stock": 8,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "බ්ලීච් දියර 1L",
+   "en": "Bleach Liquid 1L",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 9,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ෆීනයිල් 1L",
+   "en": "Phenyl 1L",
+   "sub": "SUB082",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මෝර්ටීන් මදුරු දුම් ගුලි 10pk",
+   "en": "Mortein Mosquito Coil 10pk",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 280,
+   "stock": 11,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "බේගෝන් මදුරු දුම් ගුලි 10pk",
+   "en": "Baygon Mosquito Coil 10pk",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "හිට් කෘමිනාශක ඉසින 600ml",
+   "en": "Hit Insecticide Spray 600ml",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 1050,
+   "stock": 13,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "බේගෝන් කෘමිනාශක ඉසින 600ml",
+   "en": "Baygon Insecticide Spray 600ml",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 1100,
+   "stock": 14,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඔඩෝමොස් මදුරු ආරක්ෂක ක්‍රීම් 50g",
+   "en": "Odomos Mosquito Repellent Cream 50g",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 160,
+   "stock": 15,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මදුරු විදුලි උපකරණ රිෆිල් 45 රාත්‍රි",
+   "en": "Mosquito Liquid Vaporizer Refill 45 nights",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 6,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කැරපොත්තන් බෙහෙත් ජෙල් 20g",
+   "en": "Cockroach Killer Gel 20g",
+   "sub": "SUB083",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 7,
+   "reorder": 4,
+   "src": "est"
+  }
+ ]
+}

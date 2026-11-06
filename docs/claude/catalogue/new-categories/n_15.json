@@ -1,0 +1,454 @@
+{
+ "items": [
+  {
+   "si": "අට්ලස් චූටි බෝල් පෑන් නිල්",
+   "en": "Atlas Chooty Ball Pen Blue",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 20,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අට්ලස් බෝල් පෑන් කළු",
+   "en": "Atlas Ball Pen Black",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 25,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අට්ලස් බෝල් පෑන් රතු",
+   "en": "Atlas Ball Pen Red",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 25,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රත්න පැන්සල් HB",
+   "en": "Rathna Pencil HB",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 20,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අට්ලස් 2B පැන්සල",
+   "en": "Atlas 2B Pencil",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 25,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පයිලට් ජෙල් පෑන් 0.5mm නිල්",
+   "en": "Pilot Gel Pen 0.5mm Blue",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ෆේබර්-කැස්ටල් බෝල් පෑන් නිල්",
+   "en": "Faber-Castell Ball Pen Blue",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 60,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ස්ටැබිලෝ හයිලයිටර් කහ",
+   "en": "Stabilo Highlighter Yellow",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ස්ථිර මාකර් පෑන් කළු",
+   "en": "Permanent Marker Black",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 120,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "යාන්ත්‍රික පැන්සල 0.7mm",
+   "en": "Mechanical Pencil 0.7mm",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 130,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පැන්සල් ඊයම් 0.7mm නළය",
+   "en": "Pencil Lead 0.7mm Tube",
+   "sub": "SUB091",
+   "unit": "pcs",
+   "price": 90,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අට්ලස් CR අභ්‍යාස පොත 120 පිටු",
+   "en": "Atlas CR Exercise Book 120 Pages",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 230,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අට්ලස් CR අභ්‍යාස පොත 160 පිටු",
+   "en": "Atlas CR Exercise Book 160 Pages",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 300,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කොටු ඉරි අභ්‍යාස පොත 80 පිටු",
+   "en": "Square Ruled Book 80 Pages",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 160,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "තනි ඉරි අභ්‍යාස පොත 200 පිටු",
+   "en": "Single Ruled Exercise Book 200 Pages",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සරසවි සටහන් පොත A5 පිටු 100",
+   "en": "Sarasavi Notebook A5 100 Pages",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "A4 කඩදාසි රීම් 500",
+   "en": "A4 Paper Ream 500 Sheets",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 1900,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "A4 කඩදාසි 100 පැකට්",
+   "en": "A4 Paper Pack 100 Sheets",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 450,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "දුඹුරු ලියුම් කවරය විශාල",
+   "en": "Brown Envelope Large",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 20,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සුදු ලියුම් කවර 10 පැකට්",
+   "en": "White Envelope Pack of 10",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "චිත්‍ර පොත A4 පිටු 40",
+   "en": "Drawing Book A4 40 Pages",
+   "sub": "SUB092",
+   "unit": "pcs",
+   "price": 220,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ජ්‍යාමිතික පෙට්ටිය",
+   "en": "Geometry Box Set",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 450,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "මකනය කුඩා",
+   "en": "Eraser Small",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 25,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පැන්සල් තියුණු කරනය ලෝහ",
+   "en": "Pencil Sharpener Metal",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 30,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ප්ලාස්ටික් රූලය 30cm",
+   "en": "Plastic Ruler 30cm",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 60,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ග්ලූ ස්ටික් 15g",
+   "en": "Glue Stick 15g",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 120,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "දියර ගම් 50ml",
+   "en": "Liquid Glue 50ml",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 90,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "වර්ණ පැන්සල් 12 පැකට්",
+   "en": "Colour Pencils 12 Pack",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ක්‍රේයොන් 12 පැකට්",
+   "en": "Crayons 12 Pack",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පැන්සල් පෙට්ටිය සිපයත්",
+   "en": "Pencil Case Zip",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පාසල් කතුර",
+   "en": "Scissors School Size",
+   "sub": "SUB093",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "තෑගි ඔතන කඩදාසි පත්‍රය",
+   "en": "Gift Wrapping Paper Sheet",
+   "sub": "SUB094",
+   "unit": "pcs",
+   "price": 80,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "උපන්දින සුභ පැතුම් පත",
+   "en": "Greeting Card Birthday",
+   "sub": "SUB094",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අවුරුදු සුභ පැතුම් පත",
+   "en": "Greeting Card Avurudu",
+   "sub": "SUB094",
+   "unit": "pcs",
+   "price": 120,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "තෑගි රිබන් රෝල්",
+   "en": "Gift Ribbon Roll",
+   "sub": "SUB094",
+   "unit": "pcs",
+   "price": 100,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කුඩා සෙල්ලම් කාර් රථය",
+   "en": "Small Toy Car",
+   "sub": "SUB094",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "බැලූන් 20 පැකට්",
+   "en": "Balloons Pack of 20",
+   "sub": "SUB094",
+   "unit": "pcs",
+   "price": 200,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "නවන කුඩය",
+   "en": "Folding Umbrella",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 1800,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රබර් සෙරෙප්පු යුගලය",
+   "en": "Rubber Slippers Pair",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "නැවත භාවිත කළ හැකි සාප්පු බෑගය",
+   "en": "Reusable Shopping Bag",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ඩයලොග් රීචාජ් කාඩ් රු.100",
+   "en": "Dialog Recharge Card Rs 100",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 100,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "මොබිටෙල් රීචාජ් කාඩ් රු.200",
+   "en": "Mobitel Recharge Card Rs 200",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 200,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "නූල් බෝලය",
+   "en": "Cotton String Ball",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 80,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "විනිවිද පෙනෙන ඇසුරුම් ටේප් 48mm",
+   "en": "Clear Packing Tape 48mm",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සෙලෝ ටේප් කුඩා",
+   "en": "Cello Tape Small",
+   "sub": "SUB095",
+   "unit": "pcs",
+   "price": 40,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  }
+ ]
+}

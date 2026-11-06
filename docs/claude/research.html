@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Market Research</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap">
+<nav><a href="plan.html">Plan</a><a href="architecture.html">Architecture</a><a href="database.html">Database</a><a href="security.html">Security</a><a href="localization-hardware.html">Sinhala &amp; Hardware</a><a class="on" href="research.html">Research</a></nav>
+<h1>Market Research: mypos.lk and lankabill.lk</h1><p class="sub">Read on 2026-11-05 from the vendors' own sites. Claims are marketing claims, not verified.</p>
+
+<h2>1. myPOS ONE (mypos.lk)</h2>
+<p>Enterprise retail suite by myPOS Software Solutions (Nugegoda), est. 2007, 70 staff, 4,000+ users, clients such as Keells Super, SPAR, Cargills Food City. Subscription priced by outlets, terminals and modules; <b>no public prices</b> (written quote after a scoping call, implementation charged once).</p>
+<table><tr><th>Plan</th><th>For</th><th>Includes</th></tr>
+<tr><td>Starter</td><td>1 outlet, up to 2 terminals</td><td>POS &amp; Sales, inventory basics, standard reports, email support</td></tr>
+<tr><td>Growth</td><td>Multi-outlet</td><td>+ warehouse, procurement, promotions &amp; loyalty, head-office command center, AI inventory, 24/7 phone</td></tr>
+<tr><td>Enterprise</td><td>Chains, groups</td><td>+ general ledger, payroll, fixed assets, APIs, dedicated team, on-site</td></tr></table>
+<h3>Module detail relevant to a grocery</h3>
+<table><tr><th>Module</th><th>What it offers</th><th>Our decision</th></tr>
+<tr><td>POS &amp; Sales</td><td>Touch/keyboard/mobile, offline + auto sync, blind cash-off, shift control, kiosk/self-checkout, EFT integration</td><td>v1: touch, offline, shift + Z report (demo has it). Later: EFT</td></tr>
+<tr><td>Inventory</td><td>Batch/expiry/damage, reorder suggestions, cycle count with variance approval, transfers</td><td>v1: low-stock + reorder level. v2: expiry, stock count</td></tr>
+<tr><td>Procurement</td><td>PO, GRN, supplier returns, approval matrix, supplier portal, landed cost</td><td>v2: simple GRN + supplier payables</td></tr>
+<tr><td>Credit &amp; hire purchase</td><td>Credit limits, ageing, dunning</td><td>v1: credit book with limit (demo has it); ageing later</td></tr>
+<tr><td>Promotions &amp; Best Deal</td><td>Multi-buy, tiered, bundle, mix-and-match; gazette / multi-MRP pricing; best-price resolution at the till</td><td>v2: rule engine. v1: manual item/bill discount</td></tr>
+<tr><td>Marketing &amp; loyalty</td><td>Points and tiers, member pricing, vouchers, gift cards, store credit, SMS campaigns, e-bill, segments</td><td>v1: points (demo). v2: vouchers, SMS</td></tr>
+<tr><td>Analytics</td><td>Dashboards, AI forecasting, anomaly alerts, scheduled email reports, Excel export</td><td>v1: daily reports + Excel. Later: alerts</td></tr>
+<tr><td>Masters / security</td><td>Field-level roles, approval matrix for sensitive actions, full audit log</td><td>v1: roles + owner-PIN approvals + audit log (demo: discount &gt; 10%)</td></tr></table>
+<p>Not part of our scope: warehouse, restaurant, reservations, hotel, salesforce, payroll, fixed assets, ledger, multi-company, smart-store devices (ESL, menu boards).</p>
+
+<h2>2. Lanka POS (lankabill.lk)</h2>
+<p>Positioned at small shops (mobile, computer, restaurants; also grocery, pharmacy, bakery, boutique). <b>Sinhala / Tamil / English</b> UI, offline mode, nationwide setup and 24/7 support, WhatsApp +94 70 620 7006.</p>
+<table><tr><th>Plan</th><th>Price</th><th>Highlights</th></tr>
+<tr><td>Free trial</td><td>Rs. 0 / 7 days</td><td>Quick billing, basic stock, daily reports, offline</td></tr>
+<tr><td>Lifetime licence</td><td>Rs. 59,900 one-time (was 100,000; FAQ says "from Rs. 29,490")</td><td>Unlimited billing, full inventory, A4/B5/thermal print, QR print, <b>WhatsApp bill sharing</b>, shift management, customers + loyalty cards, user permissions, supplier tracking, cloud + USB backup, lifetime updates</td></tr>
+<tr><td>Ultimate custom</td><td>On request</td><td>Multi-branch, API, white-label, on-site, training, migration</td></tr></table>
+<p><b>Core features:</b> fast checkout with split payments; real-time stock, low-stock alerts, barcode scanning; customer database + purchase history + loyalty; sales/profit reports with Excel/PDF export; barcode generation + thermal printing + custom templates; role-based access, activity log, staff performance; <b>WhatsApp billing</b>; cloud backup, one-click restore, 100% offline; kiosk mode, promotions, quotations.<br>
+<b>Hardware prices quoted:</b> barcode scanner from Rs. 3,500, thermal receipt printer from Rs. 8,500, cash drawer from Rs. 4,500 (bundles available).</p>
+
+<h2>3. What this means for Tavrion POS</h2>
+<div class="card warn"><b>Update 2026-11-05:</b> the shop is small and <b>cash only</b>. Card payments, credit sales, loyalty points and e-bills (WhatsApp/SMS) are parked, along with every item marked v2/Later below. The table is kept as a future backlog, not as v1 scope. See <code>memorry.md</code>.</div>
+<div class="card ok"><b>Positioning:</b> Lanka POS price level (single-shop, one-time or low monthly), myPOS-style grocery depth (credit limits, loyalty, approvals, shift reports), Sinhala-first with English technical terms.</div>
+<table><tr><th>Feature</th><th>Priority</th><th>In demo?</th></tr>
+<tr><td>Item discount and bill discount by % or Rs.; cashier limit 10%, owner PIN above it; shown on bill</td><td>v1</td><td>Yes</td></tr>
+<tr><td>Bill line: 1 kg price then requested qty, total at right; shop name and address on bill</td><td>v1</td><td>Yes</td></tr>
+<tr><td>Split payments (cash + card)</td><td>v1 (both competitors have it)</td><td>No</td></tr>
+<tr><td>Shift open/close, blind cash count, Z report</td><td>v1</td><td>Yes</td></tr>
+<tr><td>Loyalty points per customer</td><td>v1.1</td><td>Yes (earn only)</td></tr>
+<tr><td>WhatsApp / SMS e-bill</td><td>v1.1</td><td>Button only (needs WhatsApp Business API or SMS gateway)</td></tr>
+<tr><td>Credit book with limit, repayments</td><td>v1</td><td>Yes</td></tr>
+<tr><td>Hold / recall bill</td><td>v1</td><td>Yes</td></tr>
+<tr><td>Barcode label printing</td><td>v1.1</td><td>No</td></tr>
+<tr><td>Quotations, kiosk mode</td><td>Later</td><td>No</td></tr>
+<tr><td>Supplier GRN, expiry/batch, stock count</td><td>v2</td><td>No</td></tr>
+<tr><td>Promotions engine (multi-buy, happy hour), gift vouchers</td><td>v2</td><td>No</td></tr>
+<tr><td>Cloud + USB backup, one-click restore</td><td>v1</td><td>Planned (architecture)</td></tr>
+<tr><td>Multi-branch, head-office dashboard</td><td>Later</td><td>No</td></tr></table>
+
+<h2>4. Not verifiable from the sites</h2>
+<ul><li>myPOS prices, exact screens and workflows (module pages list summary bullets only; the GRN workflow and grocery returns flow are not described).</li><li>Lanka POS price inconsistency (Rs. 59,900 vs "from Rs. 29,490") and user counts (24K+ users vs 24,000+ Facebook followers).</li><li>Whether either supports Sinhala receipts on thermal printers.</li></ul>
+<p class="sub">Sources: mypos.lk (home, modules.html, industries.html, plans.html), lankabill.lk (home page).</p>
+</div></body></html>

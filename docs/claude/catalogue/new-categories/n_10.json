@@ -1,0 +1,304 @@
+{
+ "items": [
+  {
+   "si": "කුකුල් මස් පියයුරු (ශීත කළ) 1kg",
+   "en": "frozen chicken breast boneless 1kg",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1750,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කුකුල් කකුල් කොටස් (ශීත කළ) 1kg",
+   "en": "frozen chicken drumsticks 1kg",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1350,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කුකුල් පියාපත් (ශීත කළ) 1kg",
+   "en": "frozen chicken wings 1kg",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1250,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කුකුල් තෙල් කොටස් (ශීත කළ) 1kg",
+   "en": "frozen chicken leg quarters 1kg",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ක්‍රිස්බ්‍රෝ චිකන් සොසේජස් 500g",
+   "en": "crysbro chicken sausages 500g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1050,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ක්‍රිස්බ්‍රෝ චිකන් නගට්ස් 400g",
+   "en": "crysbro chicken nuggets 400g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ක්‍රිස්බ්‍රෝ චිකන් බර්ගර් පැටි 450g",
+   "en": "crysbro chicken burger patties 450g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1250,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "බයිරහා චිකන් සොසේජස් 500g",
+   "en": "bairaha chicken sausages 500g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1000,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "බයිරහා චිකන් නගට්ස් 400g",
+   "en": "bairaha chicken nuggets 400g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1100,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "බයිරහා චිකන් මීට්බෝල් 400g",
+   "en": "bairaha chicken meatballs 400g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කීල්ස් චිකන් සොසේජස් 500g",
+   "en": "keells chicken sausages 500g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1100,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කීල්ස් චිකන් ෆිංගර්ස් 400g",
+   "en": "keells chicken fingers 400g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1200,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කාගිල්ස් චිකන් හැම් 200g",
+   "en": "cargills chicken ham 200g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කාගිල්ස් චිකන් සලාමි 200g",
+   "en": "cargills chicken salami 200g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 700,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ප්‍රිමා චිකන් සොසේජස් 500g",
+   "en": "prima chicken sausages 500g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1050,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ එළු මස් 500g",
+   "en": "frozen mutton 500g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ ගවමස් (අස්ථි රහිත) 1kg",
+   "en": "frozen boneless beef 1kg",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 2600,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ ඌරු මස් 1kg",
+   "en": "frozen pork 1kg",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 2300,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ ගව මස් කුඩු (මින්ස්) 500g",
+   "en": "frozen minced beef 500g",
+   "sub": "SUB063",
+   "unit": "pcs",
+   "price": 1400,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "සී ෆ්‍රෙෂ් ශීත කළ ඉස්සන් 500g",
+   "en": "sea fresh frozen prawns 500g",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 2400,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ ඉස්සන් (පොතු ඉවත් කළ) 250g",
+   "en": "frozen peeled prawns 250g",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 1700,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ දැල්ලන් 500g",
+   "en": "frozen cuttlefish 500g",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 1500,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ දැල්ලන් මුද්ද 500g",
+   "en": "frozen squid rings 500g",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 1600,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ කකුළුවන් 1kg",
+   "en": "frozen crab 1kg",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 3200,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ බලයා කැබලි 1kg",
+   "en": "frozen skipjack tuna (balaya) steaks",
+   "sub": "SUB064",
+   "unit": "kg",
+   "price": 1300,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ කෙලවල්ලා කැබලි 1kg",
+   "en": "frozen yellowfin tuna (kelawalla) steaks",
+   "sub": "SUB064",
+   "unit": "kg",
+   "price": 1800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ සාලයා 1kg",
+   "en": "frozen salaya",
+   "sub": "SUB064",
+   "unit": "kg",
+   "price": 750,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ශීත කළ තෝරා කැබලි 1kg",
+   "en": "frozen seer fish (thora) steaks",
+   "sub": "SUB064",
+   "unit": "kg",
+   "price": 2800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "සී ෆ්‍රෙෂ් ෆිෂ් ෆිංගර්ස් 400g",
+   "en": "sea fresh fish fingers 400g",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 1100,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "සී ෆ්‍රෙෂ් ෆිෂ් කට්ලට් 400g",
+   "en": "sea fresh fish cutlets 400g",
+   "sub": "SUB064",
+   "unit": "pcs",
+   "price": 1000,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  }
+ ]
+}

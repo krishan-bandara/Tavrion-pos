@@ -1,0 +1,384 @@
+{
+ "items": [
+  {
+   "si": "කීරි සම්බා 5kg",
+   "en": "Keeri Samba 5kg",
+   "sub": "SUB001",
+   "unit": "pcs",
+   "price": 1450,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "නාඩු 5kg",
+   "en": "Nadu Rice 5kg",
+   "sub": "SUB001",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සම්බා 5kg",
+   "en": "Samba Rice 5kg",
+   "sub": "SUB001",
+   "unit": "pcs",
+   "price": 1250,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රතු කැකුළු සහල් 5kg",
+   "en": "Red Kekulu Rice 5kg",
+   "sub": "SUB001",
+   "unit": "pcs",
+   "price": 1100,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "හාල් පැසුණු (පරබොයිල්ඩ්) සහල්",
+   "en": "Parboiled Rice",
+   "sub": "SUB001",
+   "unit": "kg",
+   "price": 260,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "බාස්මති සහල් 1kg",
+   "en": "Basmati Rice 1kg",
+   "sub": "SUB001",
+   "unit": "pcs",
+   "price": 890,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "බාස්මති සහල් 5kg",
+   "en": "Basmati Rice 5kg",
+   "sub": "SUB001",
+   "unit": "pcs",
+   "price": 4250,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ස්ටීම් නාඩු සහල්",
+   "en": "Steamed Nadu Rice",
+   "sub": "SUB001",
+   "unit": "kg",
+   "price": 235,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පරිප්පු 1kg",
+   "en": "Red Dhal 1kg",
+   "sub": "SUB002",
+   "unit": "pcs",
+   "price": 340,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කඩල 500g",
+   "en": "Chickpea 500g",
+   "sub": "SUB002",
+   "unit": "pcs",
+   "price": 330,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "මුං ඇට 500g",
+   "en": "Green Gram 500g",
+   "sub": "SUB002",
+   "unit": "pcs",
+   "price": 360,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කව්පි",
+   "en": "Cowpea Loose",
+   "sub": "SUB002",
+   "unit": "kg",
+   "price": 780,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "උඳු",
+   "en": "Urad Dhal Split Loose",
+   "sub": "SUB002",
+   "unit": "kg",
+   "price": 1050,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සෝයා මීට් 100g",
+   "en": "Soya Meat 100g",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 140,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සෝයා මීට් (ලිහිල්)",
+   "en": "Soya Meat Loose",
+   "sub": "SUB005",
+   "unit": "kg",
+   "price": 1200,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රතු කඩල",
+   "en": "Red Chickpea Loose",
+   "sub": "SUB002",
+   "unit": "kg",
+   "price": 620,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ඇටවර්ග මිශ්‍ර 500g",
+   "en": "Mixed Pulses 500g",
+   "sub": "SUB002",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "තිරිඟු පිටි 5kg",
+   "en": "Prima Wheat Flour 5kg",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 780,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සීනි 1kg",
+   "en": "White Sugar 1kg Pack",
+   "sub": "SUB004",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සහල් පිටි 1kg",
+   "en": "Rice Flour 1kg Pack",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 240,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කුරක්කන් පිටි 400g",
+   "en": "Kurakkan Flour 400g",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අට්ටා පිටි 1kg",
+   "en": "Atta Flour 1kg",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 330,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ඉදිආප්ප පිටි 1kg",
+   "en": "Idiyappa Flour 1kg",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 360,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පිට්ටු පිටි 1kg",
+   "en": "Pittu Flour 1kg",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "බේකින් පවුඩර් 100g",
+   "en": "Baking Powder 100g",
+   "sub": "SUB003",
+   "unit": "pcs",
+   "price": 230,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ලංකා ලුණු 400g",
+   "en": "Lanka Salt Powder 400g",
+   "sub": "SUB004",
+   "unit": "pcs",
+   "price": 90,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ලංකා ලුණු 1kg",
+   "en": "Lanka Salt Iodised 1kg",
+   "sub": "SUB004",
+   "unit": "pcs",
+   "price": 140,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රයිගම් ලුණු 1kg",
+   "en": "Raigam Salt 1kg",
+   "sub": "SUB004",
+   "unit": "pcs",
+   "price": 135,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සමුද්‍ර ලුණු (ගල් ලුණු)",
+   "en": "Rock Salt Loose",
+   "sub": "SUB004",
+   "unit": "kg",
+   "price": 160,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ඉන්දුප්පු 200g",
+   "en": "Epsom Salt 200g",
+   "sub": "SUB004",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සීනි 5kg",
+   "en": "White Sugar 5kg",
+   "sub": "SUB004",
+   "unit": "pcs",
+   "price": 1300,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කෙලොග්ස් කෝන් ෆ්ලේක්ස් 500g",
+   "en": "Kellogg's Corn Flakes 500g",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 1450,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කෙලොග්ස් කෝකෝ පොප්ස් 200g",
+   "en": "Kellogg's Coco Pops 200g",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 950,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ක්වේකර් ඕට්ස් 800g",
+   "en": "Quaker Oats 800g",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 1650,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "මැලිබන් කෝන් ෆ්ලේක්ස් 250g",
+   "en": "Maliban Corn Flakes 250g",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 680,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සේමියා 400g",
+   "en": "Vermicelli 400g Pack",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සාගු 500g",
+   "en": "Sago 500g",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රවා 1kg",
+   "en": "Semolina Rava 1kg",
+   "sub": "SUB005",
+   "unit": "pcs",
+   "price": 330,
+   "stock": 24,
+   "reorder": 5,
+   "src": "est"
+  }
+ ]
+}

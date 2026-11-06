@@ -1,0 +1,334 @@
+{
+"items": [
+{
+"si": "ඩෙල් මොන්ටේ ස්වීට් කෝන් 425g",
+"en": "Del Monte Sweet Corn Kernels 425g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 780,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ඩෙල් මොන්ටේ ෆ්‍රූට් කොක්ටේල් 439g",
+"en": "Del Monte Fruit Cocktail 439g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 890,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ඩෙල් මොන්ටේ අන්නාසි පෙති 439g",
+"en": "Del Monte Pineapple Slices 439g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 820,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ටින් බටන් හතු 400g",
+"en": "Canned Button Mushrooms 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 750,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ටින් කොළ කඩල 400g",
+"en": "Canned Green Peas 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 520,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "තක්කාලි සෝස් සහිත ටින් බේක්ඩ් බීන්ස් 400g",
+"en": "Canned Baked Beans in Tomato Sauce 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 560,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ටින් කඩල 400g",
+"en": "Canned Chickpeas 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 480,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ටින් රතු කිඩ්නි බෝංචි 400g",
+"en": "Canned Red Kidney Beans 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 490,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ටින් පීච් භාග 410g",
+"en": "Canned Peach Halves 410g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 850,
+"stock": 6,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ලුණු දියර සහිත ටින් කොස් 400g",
+"en": "Canned Jackfruit in Brine 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 420,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ටින් බේබි කෝන් 400g",
+"en": "Canned Baby Corn 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 620,
+"stock": 6,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ටින් තක්කාලි 400g",
+"en": "Canned Whole Peeled Tomatoes 400g",
+"sub": "SUB059",
+"unit": "pcs",
+"price": 540,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "බරීලා පෙනේ රිගාටේ 500g",
+"en": "Barilla Penne Rigate 500g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 1350,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "බරීලා ෆුසිලි 500g",
+"en": "Barilla Fusilli 500g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 1350,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "පාස්ටා ඉටාලියා පෙනේ 400g",
+"en": "Pasta Italia Penne 400g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 620,
+"stock": 12,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "පාස්ටා ඉටාලියා ෆුසිලි 400g",
+"en": "Pasta Italia Fusilli 400g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 620,
+"stock": 12,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "පාස්ටා ඉටාලියා ස්පැගටි 200g",
+"en": "Pasta Italia Spaghetti 200g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 340,
+"stock": 12,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ලසාන්යා පත්‍ර 250g",
+"en": "Lasagne Sheets 250g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 780,
+"stock": 6,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "බිත්තර නූඩ්ල්ස් 400g",
+"en": "Egg Noodles 400g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 520,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "සේමියා පාස්ටා 200g",
+"en": "Vermicelli Pasta 200g",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 290,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "බරීලා ස්පැගටි අංක 5 500g ද්විත්ව පැකට්",
+"en": "Barilla Spaghetti No.5 500g Twin Pack",
+"sub": "SUB061",
+"unit": "pcs",
+"price": 2600,
+"stock": 5,
+"reorder": 2,
+"src": "est"
+},
+{
+"si": "මැගී චිකන් ඉන්ස්ටන්ට් නූඩ්ල්ස් කප් 70g",
+"en": "Maggi Chicken Instant Noodles Cup 70g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 420,
+"stock": 12,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "මැගී මෂ්රූම් සුප් මික්ස් 50g",
+"en": "Maggi Mushroom Soup Mix 50g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 290,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "නෝර් චිකන් සුප් මික්ස් 50g",
+"en": "Knorr Chicken Soup Mix 50g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 270,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "නෝර් තක්කාලි සුප් මික්ස් 50g",
+"en": "Knorr Tomato Soup Mix 50g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 270,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ක්වේකර් ඉන්ස්ටන්ට් ඕට්ස් සැෂේ 40g",
+"en": "Quaker Instant Oats Sachet 40g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 160,
+"stock": 15,
+"reorder": 5,
+"src": "est"
+},
+{
+"si": "නෙස්ලේ සෙරලැක් තිරිඟු කැඳ 400g",
+"en": "Nestle Cerelac Wheat Porridge 400g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 1450,
+"stock": 6,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ඉක්මන් බත් පැකට් 250g",
+"en": "Ready-to-Eat Rice Pouch 250g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 450,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ඉක්මන් පරිප්පු කරි පැකට් 200g",
+"en": "Ready-to-Eat Dhal Curry Pouch 200g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 380,
+"stock": 10,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ඉක්මන් කුකුල් මස් කරි පැකට් 200g",
+"en": "Ready-to-Eat Chicken Curry Pouch 200g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 620,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "ඉක්මන් කොළ කැඳ මික්ස් 50g",
+"en": "Instant Kola Kenda Mix 50g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 180,
+"stock": 12,
+"reorder": 4,
+"src": "est"
+},
+{
+"si": "ඉක්මන් අර්තාපල් ම්‍යාෂ් මික්ස් 100g",
+"en": "Instant Mashed Potato Mix 100g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 420,
+"stock": 6,
+"reorder": 3,
+"src": "est"
+},
+{
+"si": "මැගී ඉන්ස්ටන්ට් නූඩ්ල්ස් 5x73g මල්ටිපැක්",
+"en": "Maggi Instant Noodles Multipack 5x73g",
+"sub": "SUB062",
+"unit": "pcs",
+"price": 950,
+"stock": 8,
+"reorder": 3,
+"src": "est"
+}
+]
+}

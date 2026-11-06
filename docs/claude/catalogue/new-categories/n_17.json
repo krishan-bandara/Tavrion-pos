@@ -1,0 +1,454 @@
+{
+ "items": [
+  {
+   "si": "සිග්නල් ටූත්පේස්ට් 60g",
+   "en": "Signal Toothpaste 60g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 190,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සිග්නල් වයිට් නව් ටූත්පේස්ට් 100g",
+   "en": "Signal White Now Toothpaste 100g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සිග්නල් ඇන්ටි කැවිටි 120g",
+   "en": "Signal Anti Cavity Toothpaste 120g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 340,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කොල්ගේට් මැක්සිමම් කැවිටි ප්‍රොටෙක්ෂන් 120g",
+   "en": "Colgate Maximum Cavity Protection 120g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 460,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කොල්ගේට් ටූත්පේස්ට් 40g",
+   "en": "Colgate Toothpaste 40g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කොල්ගේට් ප්ලැක්ස් ෆ්‍රෙෂ් මවුත්වොෂ් 250ml",
+   "en": "Colgate Plax Fresh Mouthwash 250ml",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කොල්ගේට් ස්ලිම් සොෆ්ට් ටූත්බ්‍රෂ්",
+   "en": "Colgate Slim Soft Toothbrush",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ක්ලෝගාර්ඩ් ටූත්පේස්ට් 70g",
+   "en": "Clogard Toothpaste 70g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 210,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ක්ලෝගාර්ඩ් ටූත්පේස්ට් 160g",
+   "en": "Clogard Toothpaste 160g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ක්ලෝගාර්ඩ් ටූත්බ්‍රෂ්",
+   "en": "Clogard Toothbrush",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සෙන්සෝඩයින් ෆ්‍රෙෂ් ජෙල් 100g",
+   "en": "Sensodyne Fresh Gel 100g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සෙන්සෝඩයින් රැපිඩ් රිලීෆ් 70g",
+   "en": "Sensodyne Rapid Relief 70g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 1250,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පෙප්සොඩන්ට් ටූත්පේස්ට් 190g",
+   "en": "Pepsodent Toothpaste 190g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 480,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පෙප්සොඩන්ට් ටූත්පේස්ට් 75g",
+   "en": "Pepsodent Toothpaste 75g",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 230,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඩෙන්ටල් ෆ්ලොස් 50m",
+   "en": "Dental Floss 50m",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලිස්ටරීන් කූල් මින්ට් මවුත්වොෂ් 250ml",
+   "en": "Listerine Cool Mint Mouthwash 250ml",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 950,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ලිස්ටරීන් කූල් මින්ට් මවුත්වොෂ් 500ml",
+   "en": "Listerine Cool Mint Mouthwash 500ml",
+   "sub": "SUB070",
+   "unit": "pcs",
+   "price": 1650,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "පොන්ඩ්ස් ෆේස් වොෂ් 100ml",
+   "en": "Ponds Face Wash 100ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 620,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පොන්ඩ්ස් බ්‍රයිට් බියුටි ක්‍රීම් 50g",
+   "en": "Ponds White Beauty Cream 50g",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 780,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පොන්ඩ්ස් ඩ්‍රයි ස්කින් ක්‍රීම් 100ml",
+   "en": "Ponds Dry Skin Cream 100ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 850,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "නිවියා සොෆ්ට් ක්‍රීම් 100ml",
+   "en": "Nivea Soft Cream 100ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 1150,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "නිවියා ලිප් බාම් 4.8g",
+   "en": "Nivea Lip Balm 4.8g",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 550,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "නිවියා ෆේස් වොෂ් 100ml",
+   "en": "Nivea Face Wash 100ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 980,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "නිවියා සන් ලොෂන් SPF30 100ml",
+   "en": "Nivea Sun Lotion SPF30 100ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 2400,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "වැසලින් ලිප් තෙරපි 10g",
+   "en": "Vaseline Lip Therapy 10g",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 580,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "වැසලින් ඉන්ටෙන්සිව් කෙයාර් ලොෂන් 200ml",
+   "en": "Vaseline Intensive Care Lotion 200ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 980,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "වැසලින් පෙට්‍රෝලියම් ජෙලි 50ml",
+   "en": "Vaseline Petroleum Jelly 50ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 320,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලැක්මේ සන් එක්ස්පර්ට් සන්ස්ක්‍රීන් SPF50 50ml",
+   "en": "Lakme Sun Expert Sunscreen SPF50 50ml",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 1650,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "ග්ලෝ ඇන්ඩ් ලව්ලි ක්‍රීම් 50g",
+   "en": "Glow & Lovely Cream 50g",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 490,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විප්‍රෝ ෆේස් පැක් 50g",
+   "en": "Face Pack Sandalwood 50g",
+   "sub": "SUB071",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ෆේස් පැක් සැන්ඩල්වුඩ් 50g",
+   "en": "Face Pack Sandalwood 50g",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විස්පර් අල්ට්‍රා ක්ලීන් XL 15s",
+   "en": "Whisper Ultra Clean XL 15s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 720,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විස්පර් අල්ට්‍රා ක්ලීන් 8s",
+   "en": "Whisper Choice Pads 8s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සොෆී කොම්ෆර්ට් ස්ලිම් 8s",
+   "en": "Sofy Comfort Slim Pads 8s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 360,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "විස්පර් අල්ට්‍රා ක්ලීන් XL 15s",
+   "en": "Sofy Body Fit Pads 16s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 640,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කොටෙක්ස් මැක්සි 16s",
+   "en": "Kotex Maxi Pads 16s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 620,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ෆෙම්ස් සැනිටරි නැප්කින් 10s",
+   "en": "Fems Sanitary Napkins 10s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 300,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ෆෙම්ස් සැනිටරි නැප්කින් 20s",
+   "en": "Fems Sanitary Napkins 20s",
+   "sub": "SUB072",
+   "unit": "pcs",
+   "price": 560,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ගිලට් බ්ලූ 3 රේසර් 2s",
+   "en": "Gillette Blue 3 Razor 2pk",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 520,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ගිලට් මැක් 3 රේසර්",
+   "en": "Gillette Mach3 Razor",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 1850,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "ගිලට් ෆෝමි ෂේව් ෆෝම් 200g",
+   "en": "Gillette Foamy Shaving Foam 200g",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 1250,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "ගිලට් ඇෆ්ටර්ෂේව් ලොෂන් 100ml",
+   "en": "Gillette Aftershave Lotion 100ml",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 1450,
+   "stock": 5,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "බික් ෆ්ලෙක්ස් 3 රේසර්",
+   "en": "Bic Flex 3 Razor",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "බික් ඩිස්පෝසබල් රේසර් 5s",
+   "en": "Bic Disposable Razor 5pk",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 450,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඇෆ්ටර්ෂේව් ලොෂන් ඕල්ඩ් ස්පයිස් 50ml",
+   "en": "Old Spice Aftershave Lotion 50ml",
+   "sub": "SUB073",
+   "unit": "pcs",
+   "price": 1350,
+   "stock": 5,
+   "reorder": 2,
+   "src": "est"
+  }
+ ]
+}

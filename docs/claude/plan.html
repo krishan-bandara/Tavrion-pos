@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tavrion POS Plan</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap">
+<nav><a class="on" href="plan.html">Plan</a><a href="architecture.html">Architecture</a><a href="database.html">Database</a><a href="security.html">Security</a><a href="localization-hardware.html">Sinhala &amp; Hardware</a></nav>
+<h1>Tavrion POS — Implementation Plan</h1><p class="sub">Sinhala-first offline desktop POS for a small Sri Lankan grocery shop · updated 2026-11-05</p>
+
+<h2>1. Vision</h2>
+<div class="card ok">A fast, touch-friendly, <b>Sinhala</b> billing system that never stops selling when the internet drops, prints receipts, opens the cash drawer, tracks stock and customer credit, and lets the owner see sales from a phone via Supabase.</div>
+
+<h2>2. Benchmark: mypos.lk</h2>
+<p>myPOS ONE is a broad cloud suite (20 modules, PWA, multi-branch, finance, payroll, AI forecasting). A small grocery needs perhaps 20% of it. We copy the proven core and skip enterprise modules.</p>
+<table><tr><th>myPOS capability</th><th>Our v1</th><th>Later</th></tr>
+<tr><td>Touch checkout, shift control, blind cash-off</td><td>Yes</td><td>—</td></tr>
+<tr><td>Offline trading + auto sync</td><td>Yes (core principle)</td><td>—</td></tr>
+<tr><td>Inventory, batch/expiry, reorder</td><td>Stock + low-stock alert</td><td>Expiry, reorder suggestions</td></tr>
+<tr><td>Procurement / GRN</td><td>Simple stock-in</td><td>Full supplier + GRN + payables</td></tr>
+<tr><td>Credit &amp; hire purchase</td><td>Customer credit book (ණය)</td><td>Installments</td></tr>
+<tr><td>Loyalty, vouchers, SMS</td><td>—</td><td>Points, SMS reminders</td></tr>
+<tr><td>Promotions</td><td>Manual discount</td><td>Rules engine</td></tr>
+<tr><td>Barcode / scale / label printer</td><td>Scanner in phase 2</td><td>Scale, labels</td></tr>
+<tr><td>Roles, approval matrix, audit log</td><td>Owner/Cashier + audit log</td><td>Approvals</td></tr>
+<tr><td>Head office dashboards</td><td>Supabase owner dashboard (simple)</td><td>Multi-branch</td></tr>
+<tr><td>Finance, payroll, restaurant, e-commerce</td><td>Out of scope</td><td>—</td></tr></table>
+<p><b>Differentiators:</b> Sinhala UI, tiny footprint on old hardware, one-time simple setup, shop-owner-friendly credit book.</p>
+
+<h2>3. Phases</h2>
+<table><tr><th>Phase</th><th>Deliverable</th><th>Est.</th></tr>
+<tr><td>0 Discovery</td><td>Answer open questions, get printer/drawer models, product list Excel, UI sketches in Sinhala</td><td>1 wk</td></tr>
+<tr><td>1 Foundation</td><td>Tauri+React scaffold, SQLite + migrations, i18n (si/en), theme for touch, login with PIN, audit log</td><td>2 wk</td></tr>
+<tr><td>2 Sales core</td><td>Product search/grid, cart, discounts, payment (cash/card/credit), hold/recall bill, returns, receipt preview</td><td>3 wk</td></tr>
+<tr><td>3 Hardware</td><td>Thermal print (Sinhala bitmap), cash drawer kick, print queue/retry; scanner (HID) when available</td><td>1-2 wk</td></tr>
+<tr><td>4 Inventory &amp; credit</td><td>Products CRUD, stock-in, adjustments, low stock, customers, credit ledger, payments</td><td>2 wk</td></tr>
+<tr><td>5 Shifts &amp; reports</td><td>Open/close shift, cash count, X/Z report, daily sales, top items, profit estimate, Excel/PDF export</td><td>2 wk</td></tr>
+<tr><td>6 Sync &amp; backup</td><td>Outbox sync to Supabase, encrypted backups, restore tool, owner web dashboard</td><td>2 wk</td></tr>
+<tr><td>7 Hardening &amp; pilot</td><td>Installer (MSI/NSIS), auto-update, crash logs, 2-week pilot in the shop with parallel manual book</td><td>2 wk</td></tr></table>
+<p>Total ≈ 15 weeks part-time-solo; a usable billing-only MVP exists after Phase 3.</p>
+
+<div class="card warn"><b>Scope update 2026-11-05:</b> cash only. Card/EFT, customer credit book, loyalty and e-bills are removed from v1 and parked (see memorry.md). Phase 4 becomes "Inventory" only. Everything below that mentions credit or customers is on hold.</div>
+<h2>4. v1 Functional scope</h2>
+<div class="grid">
+<div class="card"><b>Billing</b><br>Touch product grid, search (Sinhala/English), qty keypad, bill discount, hold/recall, void with PIN, returns, split payment.</div>
+<div class="card"><b>Catalog</b><br>Products, categories, barcode(s), unit (pcs/kg/g), cost &amp; sell price, reorder level, image optional.</div>
+<div class="card"><b>Stock</b><br>Stock-in, adjustment, wastage, low-stock list, stock valuation.</div>
+<div class="card"><b>Customers/credit</b><br>Customer list, credit sale, partial repayment, balance statement, credit limit.</div>
+<div class="card"><b>Cash control</b><br>Shift open/close, opening float, drawer kick, expected vs counted cash, petty cash out.</div>
+<div class="card"><b>Reports</b><br>Daily/weekly/monthly sales, item-wise, cashier-wise, credit outstanding, stock, profit.</div></div>
+
+<h2>5. Non-functional targets</h2>
+<ul><li>Checkout of a 10-item bill in &lt; 30 s; add-item latency &lt; 100 ms.</li><li>Cold start &lt; 5 s on the i7-4th-gen / 8 GB machine; RAM &lt; 250 MB.</li><li>Works 100% offline; sync is background-only.</li><li>Zero lost sales on power cut (SQLite WAL + fsync per sale).</li><li>Touch targets ≥ 48 px, high contrast, usable with gloves/wet hands.</li></ul>
+
+<h2>6. Risks</h2>
+<table><tr><th>Risk</th><th>Mitigation</th></tr>
+<tr><td>Sinhala text on thermal printer</td><td>Render receipt as bitmap; test on actual printer in Phase 0</td></tr>
+<tr><td>Power cuts / hard shutdown</td><td>WAL, transaction per sale, auto-recover, UPS recommended</td></tr>
+<tr><td>Drive failure on 256 GB SSD</td><td>Daily local + cloud backup; documented restore drill</td></tr>
+<tr><td>Printer driver quirks</td><td>Use Windows spooler RAW + ESC/POS; get model early</td></tr>
+<tr><td>Scope creep toward full myPOS</td><td>Hold the v1 cut line in memorry.md</td></tr>
+<tr><td>Shop staff adoption</td><td>Sinhala UI, training, parallel run during pilot</td></tr></table>
+
+<h2>7. Tech choices summary</h2>
+<p>Tauri 2 · React 18 · TypeScript · Vite · Zustand · TanStack Query · i18next · SQLite (rusqlite/SQLCipher) · Supabase (Postgres, Auth, Storage, RLS) · escpos via Rust. Details in <a href="architecture.html">architecture.html</a>.</p>
+
+<h2>8. Open questions</h2>
+<p>See the list in <code>memorry.md</code> — notably printer model, product count, scale need, credit book, VAT, and whether this will be sold to other shops.</p>
+</div></body></html>

@@ -1,0 +1,504 @@
+{
+"items": [
+{
+"si": "මැලිබන් ටී ටයිම් බිස්කට් 85g",
+"en": "Maliban Tea Time Biscuits 85g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 90,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් මාරි බිස්කට් 200g",
+"en": "Maliban Marie Biscuits 200g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 250,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් චොකලට් ක්‍රීම් බිස්කට් 100g",
+"en": "Maliban Chocolate Cream Biscuits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 130,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් වැනිලා ක්‍රීම් බිස්කට් 100g",
+"en": "Maliban Vanilla Cream Biscuits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 130,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් ඔරේන්ජ් ක්‍රීම් බිස්කට් 100g",
+"en": "Maliban Orange Cream Biscuits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 130,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් ජෑම් සැන්ඩ්විච් බිස්කට් 200g",
+"en": "Maliban Jam Sandwich Biscuits 200g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 290,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් ටෝෆි බිස්කට් 100g",
+"en": "Maliban Toffee Biscuits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 140,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් බටර් කුකීස් 150g",
+"en": "Maliban Butter Cookies 150g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 320,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් ඕට් කුකීස් 150g",
+"en": "Maliban Oat Cookies 150g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 300,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි ටික්රි මාරි 160g",
+"en": "Munchee Tikiri Marie 160g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 190,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි චොකලට් ක්‍රීම් බිස්කට් 200g",
+"en": "Munchee Chocolate Cream Biscuits 200g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 260,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි වැනිලා ක්‍රීම් බිස්කට් 100g",
+"en": "Munchee Vanilla Cream Biscuits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 130,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි ස්ට්‍රෝබෙරි ක්‍රීම් බිස්කට් 100g",
+"en": "Munchee Strawberry Cream Biscuits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 130,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි ජිංජර් නට්ස් 200g",
+"en": "Munchee Ginger Nuts 200g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 250,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි චීස් බිට්ස් 100g",
+"en": "Munchee Cheese Bits 100g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 170,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "රිට්ස්බරි ක්‍රීම් වේෆර් 60g",
+"en": "Ritzbury Cream Wafer 60g",
+"sub": "SUB053",
+"unit": "pcs",
+"price": 120,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැඩ්බරි ඩේරි මිල්ක් 80g",
+"en": "Cadbury Dairy Milk 80g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 450,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැඩ්බරි ඩේරි මිල්ක් 40g",
+"en": "Cadbury Dairy Milk 40g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 240,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැඩ්බරි ඩේරි මිල්ක් සිල්ක් 60g",
+"en": "Cadbury Dairy Milk Silk 60g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 520,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැඩ්බරි ඩේරි මිල්ක් බබ්ලි 42g",
+"en": "Cadbury Dairy Milk Bubbly 42g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 350,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැඩ්බරි ඩේරි මිල්ක් රෝස්ට් ආමන්ඩ් 130g",
+"en": "Cadbury Dairy Milk Roast Almond 130g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 950,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැඩ්බරි ජෙම්ස් 40g",
+"en": "Cadbury Gems 40g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 160,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැන්ඩොස් කජු චොකලට් 80g",
+"en": "Kandos Cashew Milk Chocolate 80g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 420,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කැන්ඩොස් ඩාර්ක් චොකලට් 80g",
+"en": "Kandos Dark Chocolate 80g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 420,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "රිට්ස්බරි ඩාර්ක් චොකලට් 90g",
+"en": "Ritzbury Dark Choco 90g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 430,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "රිට්ස්බරි ඇල්මන්ඩ් චොකලට් 90g",
+"en": "Ritzbury Almond Choco 90g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 450,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි චොකලට් ටෝෆි 100g",
+"en": "Munchee Chocolate Toffee 100g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 120,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මැලිබන් බටර් ටෝෆි 100g",
+"en": "Maliban Butter Toffee 100g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 110,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මන්චි ෆ්‍රෲට් ටෝෆි 100g",
+"en": "Munchee Fruit Toffee 100g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 110,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කෝපි ටෝෆි 100g",
+"en": "Coffee Toffee 100g",
+"sub": "SUB054",
+"unit": "pcs",
+"price": 120,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ලේස් මැජික් මසාලා 52g",
+"en": "Lays Magic Masala 52g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 200,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ලේස් ක්‍රීම් ඔනියන් 52g",
+"en": "Lays Cream and Onion 52g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 200,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ලේස් චිලි 52g",
+"en": "Lays Spicy Chilli 52g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 200,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ස්මාක් චිප්ස් 50g",
+"en": "Smak Potato Chips 50g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 150,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ස්මාක් චීස් බෝල්ස් 50g",
+"en": "Smak Cheese Balls 50g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 120,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "රාජා බොම්බේ මික්ස්චර් 100g",
+"en": "Rajah Bombay Mixture 100g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 180,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "රාජා බටර් මුරුක්කු 100g",
+"en": "Rajah Murukku 100g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 190,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ඩෙල්ටා කසාවා චිප්ස් 80g",
+"en": "Delta Cassava Chips 80g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 160,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ඩෙල්ටා කජු මික්ස්චර් 100g",
+"en": "Delta Nut Mixture 100g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 240,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "ලුණු පොප්කෝන් 40g",
+"en": "Salted Popcorn 40g",
+"sub": "SUB055",
+"unit": "pcs",
+"price": 100,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කජු 250g",
+"en": "Cashew Nuts 250g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 1150,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කජු කැබලි 100g",
+"en": "Cashew Pieces 100g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 320,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "කජු (කිලෝ)",
+"en": "Cashew Nuts (loose)",
+"sub": "SUB056",
+"unit": "kg",
+"price": 4400,
+"stock": 5,
+"reorder": 2,
+"src": "est"
+},
+{
+"si": "රෝස්ට් කළ කජු 100g",
+"en": "Roasted Cashew Nuts 100g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 520,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "අමු රටකජු (කිලෝ)",
+"en": "Raw Peanuts (loose, shelled)",
+"sub": "SUB056",
+"unit": "kg",
+"price": 900,
+"stock": 5,
+"reorder": 2,
+"src": "est"
+},
+{
+"si": "බැදපු රටකජු (කිලෝ)",
+"en": "Fried Peanuts (loose)",
+"sub": "SUB056",
+"unit": "kg",
+"price": 1100,
+"stock": 5,
+"reorder": 2,
+"src": "est"
+},
+{
+"si": "රටකජු 250g",
+"en": "Peanuts 250g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 290,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "බාදම් 100g",
+"en": "Almonds 100g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 650,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "වෝල්නට් 100g",
+"en": "Walnuts 100g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 750,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+},
+{
+"si": "මිශ්‍ර ගෙඩි වර්ග 200g",
+"en": "Mixed Nuts 200g",
+"sub": "SUB056",
+"unit": "pcs",
+"price": 850,
+"stock": 20,
+"reorder": 6,
+"src": "est"
+}
+]
+}

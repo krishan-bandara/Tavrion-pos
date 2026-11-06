@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sinhala and Hardware</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap">
+<nav><a href="plan.html">Plan</a><a href="architecture.html">Architecture</a><a href="database.html">Database</a><a href="security.html">Security</a><a class="on" href="localization-hardware.html">Sinhala &amp; Hardware</a></nav>
+<h1>Sinhala Localization &amp; Hardware</h1><p class="sub">The two things that most often go wrong in Sri Lankan POS projects</p>
+
+<h2>1. Sinhala UI</h2>
+<ul><li><b>i18n:</b> i18next with <code>si.json</code> (default) and <code>en.json</code>; language switch in the header; every string keyed, no hard-coded text.</li><li><b>Fonts:</b> bundle <b>Noto Sans Sinhala</b> (woff2) in the app; fallback Iskoola Pota (ships with Windows). Sinhala glyphs need ~10-15% more line height — use 1.5.</li><li><b>Unicode only</b>, never legacy FM/DL fonts. Normalise to NFC before saving and before searching.</li><li><b>Input:</b> on-screen keyboard component in the app (Sinhala Wijesekara/Singlish layout + English + numeric keypad), because Windows touch keyboard is awkward in kiosk mode. Physical keyboards: Windows Sinhala IME.</li><li><b>Search:</b> FTS5 on Sinhala + a transliterated Singlish column (e.g. "සහල්" ⇄ "sahal"), prefix match.</li><li><b>Sorting:</b> use Unicode collation (ICU) for Sinhala; keep a manual <code>sort</code> number for tiles.</li><li><b>Numbers/dates:</b> Western digits and format <code>1,250.00</code>, dates <code>2026-11-05</code>, currency "රු." / "Rs."</li><li><b>Product names:</b> store <code>name_si</code> and <code>name_en</code>; show Sinhala first, fallback English.</li></ul>
+<div class="card warn">Test on the real machine in Phase 0: shaping of conjuncts (ක්‍ෂ, ශ්‍රී, ්‍ය) can break in some renderers. WebView2 (Chromium) handles them correctly; this is a reason to avoid older native widgets.</div>
+
+<h2>2. Touch UI rules (15.6" display)</h2>
+<ul><li>Buttons ≥ 48×48 px (prefer 64 px for payment/keypad); 8-12 px gaps.</li><li>Main layout: left product grid / search, right bill panel, bottom action bar (Hold, Discount, Customer, Pay).</li><li>Big numeric keypad for qty and cash tendered with quick-cash buttons (500, 1000, 2000, 5000).</li><li>No hover-only UI; no small dropdowns — use full-screen pickers.</li><li>Disable text selection/pinch-zoom; confirm dialogs for destructive actions.</li></ul>
+
+<h2>3. Receipt printing</h2>
+<ul><li>Thermal printers have no Sinhala font ROM → <b>render the receipt to a bitmap</b> (HTML canvas or Rust <code>image</code>/<code>ab_glyph</code> with Noto Sinhala) at 203 dpi (58 mm = 384 px, 80 mm = 576 px width) and send as ESC/POS raster (<code>GS v 0</code>).</li><li>Transport: Windows spooler with <b>RAW</b> datatype to the installed printer name (works for USB and many drivers) or direct USB via <code>rusb</code> if drivers are problematic.</li><li>Print queue stored in <code>print_job</code>; auto retry; "Reprint last bill" button; printer-offline warning banner.</li><li>Receipt layout: shop name (si/en), address, phone, bill no, date/time, cashier, items (name, qty × price, total), subtotal, discount, total, paid, change, credit balance, footer, optional QR.</li><li>Raster printing is slower than text: keep header logo small and cut with <code>GS V</code>.</li></ul>
+
+<h2>4. Cash drawer</h2>
+<ul><li>Standard RJ11 drawer plugs into the printer; open with ESC/POS pulse <code>ESC p 0 25 250</code> (pin 2) or <code>ESC p 1 …</code> (pin 5) depending on wiring — make pin configurable.</li><li>Kick only on cash payments, "No sale" (owner PIN), shift events; log each drawer open in audit.</li></ul>
+
+<h2>5. Barcode scanner (phase 2)</h2>
+<ul><li>USB scanners in HID keyboard-wedge mode: the app listens for fast keystroke bursts ending with Enter (&lt; 50 ms between chars) on the POS screen — no driver needed.</li><li>Supports EAN-13, UPC, Code128; programmable prefix/suffix optional.</li><li>Unknown barcode → "Create product?" quick dialog (owner only).</li><li>Many local grocery items lack barcodes: allow shop-printed labels / quick-tap tiles for those.</li></ul>
+
+<h2>6. Weighing scale (later)</h2>
+<p>Option A: price-embedded label barcodes (EAN-13 prefix 2, as printed by label scales) parsed by the app. Option B: RS-232/USB serial scale read in Rust. Decide after the shop confirms loose-goods volume.</p>
+
+<h2>7. Other hardware notes</h2>
+<ul><li>Marcopos MP-TP001S: confirm available ports (USB count, COM, RJ11 drawer port) — some models have an <b>internal built-in printer</b>; check whether it includes one (the "TP" may indicate thermal printer). Update <code>memorry.md</code> after checking.</li><li>Recommend a small UPS (power cuts) and a spare USB thermal printer.</li><li>Turn off Windows sleep/hibernate; set power plan to High performance; keep SSD &gt; 20% free.</li></ul>
+</div></body></html>

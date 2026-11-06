@@ -1,0 +1,334 @@
+{
+ "items": [
+  {
+   "si": "කොත්තමල්ලි කොළ (මිටිය)",
+   "en": "Coriander leaves (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 60,
+   "stock": 30,
+   "reorder": 8,
+   "src": "est"
+  },
+  {
+   "si": "මින්චි කොළ (මිටිය)",
+   "en": "Mint leaves (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 50,
+   "stock": 25,
+   "reorder": 8,
+   "src": "est"
+  },
+  {
+   "si": "සලාද කොළ",
+   "en": "Lettuce",
+   "sub": "SUB008",
+   "unit": "kg",
+   "price": 900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කොහිල කොළ (මිටිය)",
+   "en": "Kohila leaves (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 70,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ගැටකොළු (මිටිය)",
+   "en": "Gotukola Gatakola (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 60,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රතු තම්පලා (මිටිය)",
+   "en": "Red amaranth (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 70,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "සාරණ කොළ (මිටිය)",
+   "en": "Sarana leaves (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 60,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රම්පේ (මිටිය)",
+   "en": "Rampe pandan leaves (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 40,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "බ්‍රොකලි",
+   "en": "Broccoli",
+   "sub": "SUB008",
+   "unit": "kg",
+   "price": 1800,
+   "stock": 8,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "සෙලරි",
+   "en": "Celery",
+   "sub": "SUB008",
+   "unit": "kg",
+   "price": 1600,
+   "stock": 5,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "මිශ්‍ර සලාද කොළ 250g",
+   "en": "Mixed salad leaves 250g",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ලූණු කොළ (මිටිය)",
+   "en": "Spring onion (bunch)",
+   "sub": "SUB008",
+   "unit": "pcs",
+   "price": 120,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කරපිංචා (කිලෝ)",
+   "en": "Curry leaves loose",
+   "sub": "SUB008",
+   "unit": "kg",
+   "price": 800,
+   "stock": 5,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "රතු බතල",
+   "en": "Red sweet potato",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 340,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "රාබු",
+   "en": "White radish (mooli)",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 260,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "අමු කහ",
+   "en": "Fresh turmeric root",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 600,
+   "stock": 5,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "හබරල",
+   "en": "Habarala (giant taro)",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 480,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "නෝල්කෝල්",
+   "en": "Knol khol",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 450,
+   "stock": 8,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "නෙළුම් අල",
+   "en": "Lotus root",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 900,
+   "stock": 4,
+   "reorder": 1,
+   "src": "est"
+  },
+  {
+   "si": "අරලු අල",
+   "en": "Yam (dioscorea)",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 550,
+   "stock": 8,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "කැකිරි අල",
+   "en": "Colocasia (small taro)",
+   "sub": "SUB009",
+   "unit": "kg",
+   "price": 420,
+   "stock": 8,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "කොච්චි",
+   "en": "Kochchi (bird chilli)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 1500,
+   "stock": 3,
+   "reorder": 1,
+   "src": "est"
+  },
+  {
+   "si": "කෙසෙල් මල",
+   "en": "Banana blossom",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 350,
+   "stock": 8,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "පිපිඤ්ඤා",
+   "en": "Ridge gourd (pipinna)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 420,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ලබු",
+   "en": "Bottle gourd (labu)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 280,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කොවක්කා",
+   "en": "Ivy gourd (kowakka)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 450,
+   "stock": 8,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "තිබ්බටු",
+   "en": "Tibbatu (turkey berry)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 520,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "මල් ගෝවා",
+   "en": "Cauliflower",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 750,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ඉරිඟු කරල්",
+   "en": "Corn cob (fresh)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 520,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වැටකොලු",
+   "en": "Wetakolu (angled luffa)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 460,
+   "stock": 6,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "අමු කෙසෙල්",
+   "en": "Raw banana (kesel)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 260,
+   "stock": 20,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "තුඹ කරවිල",
+   "en": "Thumba karawila",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 700,
+   "stock": 5,
+   "reorder": 2,
+   "src": "est"
+  },
+  {
+   "si": "මාළු මිරිස්",
+   "en": "Banana pepper (maalu miris)",
+   "sub": "SUB010",
+   "unit": "kg",
+   "price": 650,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  }
+ ]
+}

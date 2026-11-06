@@ -1,0 +1,324 @@
+{
+ "items": [
+  {
+   "si": "බලයා",
+   "en": "Fresh balaya (Indian mackerel/ skipjack small)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1300,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "තලපත්",
+   "en": "Fresh thalapath (sailfish)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "සාලයා",
+   "en": "Fresh salaya (sardinella)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "පරව්",
+   "en": "Fresh paraw (trevally)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කුම්බලවා",
+   "en": "Fresh kumbalawa (small seer-type)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1500,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කට්ටා",
+   "en": "Fresh katta (small sprat-size)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 700,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "හුරුල්ලා",
+   "en": "Fresh hurulla (herring)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 850,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ලින්නා",
+   "en": "Fresh linna (ribbon fish)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1100,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "තෝරා",
+   "en": "Fresh seer fish (thora)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 3200,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ගල්මැස්සා",
+   "en": "Fresh galmessa (rock fish)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1600,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කෑලෙයා",
+   "en": "Fresh kaleya (small tuna)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1100,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "බොල්ලා",
+   "en": "Fresh bolla (barracuda)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1700,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කානකුරා",
+   "en": "Fresh kanakurha (grouper)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 2600,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "පොදිබුල්ලා",
+   "en": "Fresh podibulla (cuttlefish)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "දැල්ලා",
+   "en": "Fresh dalla (squid)",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 1800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කකුළුවා",
+   "en": "Fresh crab",
+   "sub": "SUB021",
+   "unit": "kg",
+   "price": 3800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ තලපත් කැබලි",
+   "en": "Dried thalapath pieces",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 3800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ තෝරා",
+   "en": "Dried seer fish (thora karawala)",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 4200,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේලූ බලයා",
+   "en": "Dried balaya karawala",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 2800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ පරව්",
+   "en": "Dried paraw karawala",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 3500,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "සුරා කරවල",
+   "en": "Dried shark (sura karawala)",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 3900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ හුරුල්ලා",
+   "en": "Dried hurulla karawala",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 2600,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ කුම්බලවා",
+   "en": "Dried kumbalawa karawala",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 3000,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "මාල්දිවු කුඩු 100g",
+   "en": "Maldive fish powder 100g",
+   "sub": "SUB022",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 24,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ දැල්ලා",
+   "en": "Dried squid",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 4800,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "වේළූ ලින්නා",
+   "en": "Dried linna karawala",
+   "sub": "SUB022",
+   "unit": "kg",
+   "price": 2500,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "හාල්මැස්සන් නැවුම්",
+   "en": "Fresh sprats (halmasso)",
+   "sub": "SUB023",
+   "unit": "kg",
+   "price": 1100,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "හාල්මැස්සන් ලුණු දැමූ",
+   "en": "Salted sprats",
+   "sub": "SUB023",
+   "unit": "kg",
+   "price": 1000,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "හාල්මැස්සන් 250g පැකට්",
+   "en": "Dried sprats 250g pack",
+   "sub": "SUB023",
+   "unit": "pcs",
+   "price": 950,
+   "stock": 24,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "හාල්මැස්සන් 100g පැකට්",
+   "en": "Dried sprats 100g pack",
+   "sub": "SUB023",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 24,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "හාල්මැස්සන් ලොකු",
+   "en": "Dried large sprats (premium)",
+   "sub": "SUB023",
+   "unit": "kg",
+   "price": 3400,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "හාල්මැස්සන් සුදු පිරිසිදු",
+   "en": "Dried cleaned sprats (headless)",
+   "sub": "SUB023",
+   "unit": "kg",
+   "price": 4200,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  }
+ ]
+}

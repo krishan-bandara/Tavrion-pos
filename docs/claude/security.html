@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tavrion POS Security</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap">
+<nav><a href="plan.html">Plan</a><a href="architecture.html">Architecture</a><a href="database.html">Database</a><a class="on" href="security.html">Security</a><a href="localization-hardware.html">Sinhala &amp; Hardware</a></nav>
+<h1>Security &amp; Data Protection</h1><p class="sub">Threat model for a shop till: theft, insider fraud, power loss, malware, lost cloud keys</p>
+
+<h2>1. Assets &amp; threats</h2>
+<table><tr><th>Asset</th><th>Threat</th><th>Control</th></tr>
+<tr><td>Cash &amp; sales integrity</td><td>Cashier voids sale and pockets cash</td><td>Void/discount/return need owner PIN; every action in hash-chained audit log; shift variance report</td></tr>
+<tr><td>Sales DB</td><td>Disk theft / copy</td><td>SQLCipher encryption; key in Windows DPAPI (user-bound); BitLocker recommended</td></tr>
+<tr><td>Customer credit data</td><td>Privacy leak (names, phones)</td><td>Minimal data; encrypted at rest; RLS in cloud; PDPA (Sri Lanka Act No. 9 of 2022) aware</td></tr>
+<tr><td>Supabase</td><td>Leaked key → data exposure</td><td>Never ship <code>service_role</code> key in app; device uses scoped JWT; RLS on all tables</td></tr>
+<tr><td>Availability</td><td>Power cut, SSD failure</td><td>WAL + FULL sync, daily backups local + cloud, restore drill, UPS</td></tr>
+<tr><td>App binary</td><td>Tampering, fake updates</td><td>Signed installer; Tauri updater signature verification</td></tr>
+<tr><td>Windows PC</td><td>Malware via USB / browsing</td><td>Dedicated standard user account, kiosk mode, Defender on, no browsing, USB autorun off</td></tr></table>
+
+<h2>2. Authentication &amp; authorisation</h2>
+<ul><li>Touch <b>PIN login</b> (4-6 digits) per user; stored as <b>argon2id</b> hash; lockout after 5 tries (5 min, then owner reset).</li><li>Roles: <b>owner</b> (all), <b>cashier</b> (sell, hold, view own shift). Permission matrix enforced in <b>Rust commands</b>, never only in UI.</li><li>Auto-lock after N minutes idle; fast user switch.</li><li>Sensitive actions requiring owner PIN: void bill, return, price override, discount &gt; X%, stock adjust, petty cash, edit credit, close shift variance, backup restore, settings.</li><li>Cloud: owner dashboard uses Supabase Auth (email + password + MFA/TOTP).</li></ul>
+
+<h2>3. Data protection</h2>
+<ul><li><b>At rest:</b> SQLCipher AES-256; key generated at install, wrapped with DPAPI; recovery key printed once for the owner.</li><li><b>In transit:</b> TLS 1.2+ only to Supabase; certificate validation on; no HTTP.</li><li><b>Backups:</b> AES-256-GCM encrypted before upload; passphrase held by owner, not in Supabase.</li><li><b>No card data</b> stored (PCI scope avoided): card/QR payments recorded as method + amount only.</li><li><b>Logs</b> never contain PIN, tokens, full phone numbers.</li></ul>
+
+<h2>4. Supabase security checklist</h2>
+<ul><li>RLS enabled on every table; policies tested with a negative test per table.</li><li>Device identity: one Supabase Auth user per device with custom claim <code>shop_id</code>; short-lived JWT, refresh token stored in DPAPI.</li><li>Device role cannot DELETE or UPDATE immutable tables (sale, payment, stock_movement, audit_log).</li><li>Storage bucket <code>backups</code> private; per-shop folder policy.</li><li>Run Supabase security advisors after each migration; enable daily PITR/backup if plan allows.</li><li>Rotate keys if a PC is lost; revoke device from dashboard (remote kill).</li></ul>
+
+<h2>5. Audit &amp; integrity</h2>
+<ul><li><code>audit_log</code> is append-only; each row stores <code>prev_hash</code> + <code>hash</code> (SHA-256) to detect tampering.</li><li>Bill numbers are gap-free per day; voids keep the number.</li><li>Z-report prints totals + last audit hash.</li></ul>
+
+<h2>6. Application hardening</h2>
+<ul><li>Tauri allowlist: minimal commands, no shell/fs access from the webview; strict CSP (<code>default-src 'self'</code>).</li><li>All SQL parameterised; input validated in Rust (lengths, ranges, integer cents).</li><li>Dependency pinning + <code>cargo audit</code> / <code>npm audit</code> in CI; lockfiles committed.</li><li>Secrets never committed; <code>.env</code> ignored; build secrets in CI vault.</li><li>Crash reports opt-in, scrubbed.</li></ul>
+
+<h2>7. Operational security</h2>
+<ul><li>Windows: BitLocker (if TPM) or at least strong user password; separate admin account; auto-updates scheduled outside trading hours.</li><li>Kiosk mode: app auto-starts, shell hidden, Alt-Tab/Win key restricted for cashier account.</li><li>Network: shop WiFi WPA2/3, router admin password changed; PC firewall inbound deny.</li><li>Monthly <b>restore drill</b> on a spare machine.</li><li>Incident plan: lost PC → revoke device in Supabase, rotate keys, restore on new PC from backup.</li></ul>
+
+<h2>8. Residual risks to accept or decide</h2>
+<div class="card warn">Owner PIN shared with staff defeats approvals; no hardware token for a small shop. If the owner forgets the backup passphrase, cloud backups are unrecoverable — print and store it safely.</div>
+</div></body></html>

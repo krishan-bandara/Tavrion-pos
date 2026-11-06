@@ -1,0 +1,18 @@
+:root{--bg:#fff;--fg:#1c2330;--muted:#5b6678;--card:#f5f7fa;--line:#dde3ec;--acc:#0b6e4f;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#10151c;--fg:#e6ebf2;--muted:#98a3b5;--card:#182029;--line:#2a3544;--acc:#3ecf8e;--warn:#f0a95a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 "Segoe UI","Iskoola Pota","Noto Sans Sinhala",system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+nav a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--fg);text-decoration:none;font-size:14px}
+nav a.on,nav a:hover{background:var(--acc);color:#fff;border-color:var(--acc)}
+h1{font-size:30px;margin:0 0 4px}h2{margin-top:36px;border-bottom:1px solid var(--line);padding-bottom:6px}h3{margin-top:24px}
+.sub{color:var(--muted);margin-top:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:14px 0}
+.warn{border-left:4px solid var(--warn)}.ok{border-left:4px solid var(--acc)}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:15px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--card)}
+code,pre{font-family:Consolas,monospace;font-size:13.5px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px;overflow-x:auto}
+.tag{display:inline-block;padding:1px 8px;border-radius:6px;background:var(--acc);color:#fff;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}

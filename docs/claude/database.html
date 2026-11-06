@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tavrion POS Database</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap">
+<nav><a href="plan.html">Plan</a><a href="architecture.html">Architecture</a><a class="on" href="database.html">Database</a><a href="security.html">Security</a><a href="localization-hardware.html">Sinhala &amp; Hardware</a></nav>
+<h1>Database Design</h1><p class="sub">SQLite (local, source of truth) mirrored to Supabase Postgres</p>
+
+<h2>Conventions</h2>
+<ul><li>PK: <code>id TEXT</code> UUID v7 (Postgres: <code>uuid</code>).</li><li>Money: integer cents (LKR × 100). Quantity: integer in smallest unit (pcs, or grams for weighed items → <code>qty_milli</code> = thousandths).</li><li>Every table: <code>created_at, updated_at, deleted_at</code> (soft delete), <code>device_id</code>.</li><li>Sales, payments, stock movements are <b>immutable</b>; corrections via reversing records.</li></ul>
+
+<h2>Tables</h2>
+<table><tr><th>Table</th><th>Key columns</th></tr>
+<tr><td>shop</td><td>id, name_si, name_en, address, phone, vat_no, vat_enabled, currency</td></tr>
+<tr><td>user</td><td>id, name, role (owner|cashier), pin_hash (argon2id), active, failed_attempts, locked_until</td></tr>
+<tr><td>category</td><td>id, name_si, name_en, sort</td></tr>
+<tr><td>product</td><td>id, sku, name_si, name_en, category_id, unit (pcs|kg|g|l), is_weighed, cost_cents, price_cents, tax_rate_bp, reorder_level, active</td></tr>
+<tr><td>product_barcode</td><td>id, product_id, barcode UNIQUE</td></tr>
+<tr><td>stock_movement</td><td>id, product_id, qty_milli (±), type (sale|return|purchase|adjust|wastage|opening), ref_id, note, user_id, at</td></tr>
+<tr><td>customer</td><td>id, name, phone, address, credit_limit_cents</td></tr>
+<tr><td>sale</td><td>id, bill_no (per day sequence), shift_id, user_id, customer_id?, subtotal, discount, tax, total (cents), status (completed|void), at</td></tr>
+<tr><td>sale_item</td><td>id, sale_id, product_id, name_snapshot, qty_milli, unit_price_cents, discount_cents, tax_cents, cost_snapshot_cents</td></tr>
+<tr><td>payment</td><td>id, sale_id, method (cash|card|qr|credit), amount_cents, tendered_cents, change_cents</td></tr>
+<tr><td>credit_ledger</td><td>id, customer_id, type (sale|payment|adjust), amount_cents (±), sale_id?, at</td></tr>
+<tr><td>shift</td><td>id, user_id, opened_at, closed_at, opening_float, expected_cash, counted_cash, variance</td></tr>
+<tr><td>cash_movement</td><td>id, shift_id, type (petty_out|cash_in|drop), amount, reason</td></tr>
+<tr><td>supplier / purchase / purchase_item</td><td>(phase later) GRN with cost, supplier invoice no.</td></tr>
+<tr><td>print_job</td><td>id, kind (receipt|report|drawer), payload, status, attempts, last_error</td></tr>
+<tr><td>audit_log</td><td>id, user_id, action, entity, entity_id, before_json, after_json, at (append-only, hash-chained)</td></tr>
+<tr><td>outbox</td><td>id, table_name, row_id, op, payload, created_at, sent_at, attempts</td></tr>
+<tr><td>setting</td><td>key, value (printer name, paper width, receipt footer, language)</td></tr></table>
+
+<h2>Key rules</h2>
+<ul><li><b>On-hand stock</b> = SUM(stock_movement.qty_milli); cached in <code>product_stock</code> view/table updated in same transaction.</li><li><b>Credit balance</b> = SUM(credit_ledger.amount_cents).</li><li><b>Bill number</b>: <code>YYMMDD-NNN</code>, generated inside the sale transaction.</li><li><b>Price changes</b> never alter old sales (snapshot columns).</li><li><b>Negative stock</b> allowed with warning (shops often sell before recording purchases) — configurable.</li></ul>
+
+<h2>Starter DDL (excerpt)</h2>
+<pre>
+CREATE TABLE product (
+  id TEXT PRIMARY KEY, sku TEXT UNIQUE, name_si TEXT NOT NULL, name_en TEXT,
+  category_id TEXT REFERENCES category(id), unit TEXT NOT NULL DEFAULT 'pcs',
+  is_weighed INTEGER NOT NULL DEFAULT 0,
+  cost_cents INTEGER NOT NULL DEFAULT 0 CHECK (cost_cents &gt;= 0),
+  price_cents INTEGER NOT NULL CHECK (price_cents &gt;= 0),
+  tax_rate_bp INTEGER NOT NULL DEFAULT 0, reorder_level INTEGER DEFAULT 0,
+  active INTEGER NOT NULL DEFAULT 1,
+  created_at TEXT NOT NULL, updated_at TEXT NOT NULL, deleted_at TEXT, device_id TEXT
+);
+CREATE TABLE stock_movement (
+  id TEXT PRIMARY KEY, product_id TEXT NOT NULL REFERENCES product(id),
+  qty_milli INTEGER NOT NULL, type TEXT NOT NULL, ref_id TEXT, note TEXT,
+  user_id TEXT NOT NULL, at TEXT NOT NULL
+);
+CREATE INDEX ix_sm_product ON stock_movement(product_id);
+CREATE INDEX ix_sale_at ON sale(at);
+CREATE UNIQUE INDEX ux_barcode ON product_barcode(barcode);
+</pre>
+
+<h2>Supabase side</h2>
+<ul><li>Same tables plus <code>shop_id</code> column on each; <b>RLS</b> on every table: <code>shop_id = (auth.jwt()-&gt;&gt;'shop_id')::uuid</code>.</li><li>Device writes via role <code>pos_device</code> (insert/upsert only, no delete). Owner dashboard role is read-only.</li><li>Views for dashboard: <code>v_daily_sales</code>, <code>v_top_items</code>, <code>v_credit_outstanding</code>, <code>v_low_stock</code>.</li><li>Migrations managed as files in <code>supabase/migrations</code>; run <code>get_advisors</code> after each change.</li></ul>
+
+<h2>Search (Sinhala)</h2>
+<p>Use SQLite FTS5 over name_si + name_en + barcode + sku. Also store a Singlish/transliterated keyword column so cashiers can type English letters to find Sinhala names.</p>
+</div></body></html>

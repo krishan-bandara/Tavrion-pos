@@ -1,0 +1,244 @@
+{
+ "items": [
+  {
+   "si": "කසල බෑග් විශාල 10ක් (30L)",
+   "en": "Garbage Bags Large 30L 10pcs",
+   "sub": "SUB084",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කසල බෑග් මධ්‍යම 20ක්",
+   "en": "Garbage Bags Medium 20pcs",
+   "sub": "SUB084",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කසල බෑග් කළු 5ක් (60L)",
+   "en": "Garbage Bags Black 60L 5pcs",
+   "sub": "SUB084",
+   "unit": "pcs",
+   "price": 350,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කසල බෑග් අතිවිශාල 5ක් (90L)",
+   "en": "Garbage Bags Extra Large 90L 5pcs",
+   "sub": "SUB084",
+   "unit": "pcs",
+   "price": 480,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ගිනි පෙට්ටි 10ක් ඇසුරුම",
+   "en": "Matches 10 Box Pack",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 20,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "ඉටිපන්දම් 12ක් ඇසුරුම",
+   "en": "Candles 12pcs Pack",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "ඉටිපන්දම් විශාල 3ක්",
+   "en": "Candles Large 3pcs",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සුවඳ දුම්කුරු (අගරබත්ති) පැකට් 20",
+   "en": "Agarbathi Incense Sticks 20pcs",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 20,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "කපුරු කුඩා 10ක්",
+   "en": "Camphor Tablets 10pcs",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 120,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පහන් තෙල් 500ml",
+   "en": "Lamp Oil 500ml",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ගෑස් ලයිටරය",
+   "en": "Gas Lighter",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 150,
+   "stock": 25,
+   "reorder": 8,
+   "src": "est"
+  },
+  {
+   "si": "කෝව් ලයිටරය (දිගු)",
+   "en": "Long Kitchen Lighter",
+   "sub": "SUB089",
+   "unit": "pcs",
+   "price": 450,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "එවරේඩි AAA බැටරි 4ක්",
+   "en": "Eveready AAA Batteries 4pcs",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "එවරේඩි AA බැටරි 4ක්",
+   "en": "Eveready AA Batteries 4pcs",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 450,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පැනසොනික් AA බැටරි 4ක්",
+   "en": "Panasonic AA Batteries 4pcs",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 480,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඩුරාසෙල් AA බැටරි 2ක්",
+   "en": "Duracell AA Batteries 2pcs",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඩුරාසෙල් AAA බැටරි 2ක්",
+   "en": "Duracell AAA Batteries 2pcs",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "එවරේඩි 9V බැටරිය",
+   "en": "Eveready 9V Battery 1pc",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "බොත්තම් බැටරිය CR2032",
+   "en": "Button Cell Battery CR2032 1pc",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පිලිප්ස් LED බල්බය 7W",
+   "en": "Philips LED Bulb 7W",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 550,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පිලිප්ස් LED බල්බය 12W",
+   "en": "Philips LED Bulb 12W",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 850,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "LED බල්බය 5W (ඉස්කුරුප්පු)",
+   "en": "LED Bulb 5W Screw Type",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 20,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "LED නළ බල්බය 18W",
+   "en": "LED Tube Light 18W",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 950,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "අතින් ගෙන යන විදුලි පන්දම",
+   "en": "Hand Torch Light",
+   "sub": "SUB090",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  }
+ ]
+}

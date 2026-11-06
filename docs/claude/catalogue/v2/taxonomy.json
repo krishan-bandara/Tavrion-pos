@@ -1,0 +1,1061 @@
+{
+ "categories": [
+  {
+   "id": "C01",
+   "en": "Rice, Grains & Staples",
+   "si": "සහල්, ධාන්‍ය හා ප්‍රධාන ආහාර",
+   "sources": "SPAR Grocery; KGS Rice & Grains; Family Rice, Grains & Staples; Sahanakade Food Staples"
+  },
+  {
+   "id": "C02",
+   "en": "Vegetables",
+   "si": "එළවළු",
+   "sources": "SPAR Fresh Food>Vegetables; KGS Fruits & Vegetables; Family Fresh Vegetables & Fruits"
+  },
+  {
+   "id": "C03",
+   "en": "Fruits",
+   "si": "පළතුරු",
+   "sources": "SPAR Fresh Food>Fruits; KGS Fruits & Vegetables; Family Fresh Vegetables & Fruits"
+  },
+  {
+   "id": "C04",
+   "en": "Meat & Poultry",
+   "si": "මස් හා කුකුළු මස්",
+   "sources": "SPAR Meat & Seafood; KGS Meat & Poultry; Family Meat & Fresh Seafood"
+  },
+  {
+   "id": "C05",
+   "en": "Fish & Seafood",
+   "si": "මාළු හා මුහුදු ආහාර",
+   "sources": "SPAR Frozen Fish / Dried Fish; KGS Seafood; Family Meat & Fresh Seafood"
+  },
+  {
+   "id": "C06",
+   "en": "Dairy, Eggs & Chilled",
+   "si": "කිරි, බිත්තර හා ශීතකළ ආහාර",
+   "sources": "SPAR Chilled; KGS Dairy Products; Family Dairy & Chilled; Sahanakade UHT, Milk & Milk Powder"
+  },
+  {
+   "id": "C07",
+   "en": "Bakery",
+   "si": "බේකරි",
+   "sources": "SPAR Fresh Food>Bakery; Family Bakery & Biscuits"
+  },
+  {
+   "id": "C08",
+   "en": "Beverages",
+   "si": "බීම වර්ග",
+   "sources": "SPAR Beverages; KGS Beverages; Family Beverages & Juices; Sahanakade Beverages"
+  },
+  {
+   "id": "C09",
+   "en": "Cooking & Spices",
+   "si": "ආහාර පිසීමේ ද්‍රව්‍ය හා කුළුබඩු",
+   "sources": "SPAR Spices, Oils, Sauce; KGS Cooking & Spices; Sahanakade Cooking Ingredients"
+  },
+  {
+   "id": "C10",
+   "en": "Snacks & Confectionery",
+   "si": "රසකැවිලි හා කෙටි ආහාර",
+   "sources": "SPAR Sweets & Snacks; KGS Snacks & Sweets; Sahanakade Breakfast, Choco & Snacks"
+  },
+  {
+   "id": "C11",
+   "en": "Canned & Packaged Food",
+   "si": "ටින් කළ හා ඇසුරුම් කළ ආහාර",
+   "sources": "SPAR Canned items, Noodles & Pasta, Soups; Sahanakade Canned, Dry & Packaged / Noodles & Pasta / Instant & Ready-to-Eat"
+  },
+  {
+   "id": "C12",
+   "en": "Frozen Food",
+   "si": "ශීත කළ ආහාර",
+   "sources": "SPAR Chilled & Frozen>Frozens"
+  },
+  {
+   "id": "C13",
+   "en": "Personal Care",
+   "si": "පුද්ගලික සනීපාරක්ෂාව",
+   "sources": "SPAR Health & Personal Care; KGS Personal Care; Family Household & Personal Care; Sahanakade Health & Beauty"
+  },
+  {
+   "id": "C14",
+   "en": "Baby Products",
+   "si": "ළදරු නිෂ්පාදන",
+   "sources": "SPAR Baby Care; KGS Baby & Kids"
+  },
+  {
+   "id": "C15",
+   "en": "Household & Cleaning",
+   "si": "ගෘහ භාණ්ඩ හා පිරිසිදු කිරීම",
+   "sources": "SPAR Home & Essentials; KGS Household Essentials; Family Household; Sahanakade Laundry, Cleaning & Household"
+  },
+  {
+   "id": "C16",
+   "en": "Stationery & School",
+   "si": "ලිපිද්‍රව්‍ය හා පාසල් අවශ්‍යතා",
+   "sources": "SPAR Stationery & Office Supplies / Toys; Family Stationery & School Needs"
+  },
+  {
+   "id": "C17",
+   "en": "Pet Care",
+   "si": "සුරතල් සතුන්ගේ අයිතම",
+   "sources": "SPAR Pet Care; KGS Pet Care"
+  }
+ ],
+ "subcategories": [
+  {
+   "id": "S001",
+   "cat": "C01",
+   "en": "Rice",
+   "si": "සහල්",
+   "spar": [
+    "Rice"
+   ]
+  },
+  {
+   "id": "S002",
+   "cat": "C01",
+   "en": "Dhal",
+   "si": "පරිප්පු",
+   "spar": [
+    "Dhal"
+   ]
+  },
+  {
+   "id": "S003",
+   "cat": "C01",
+   "en": "Grains & Pulses",
+   "si": "ධාන්‍ය හා ඇට වර්ග",
+   "spar": [
+    "Grains"
+   ]
+  },
+  {
+   "id": "S004",
+   "cat": "C01",
+   "en": "Flour",
+   "si": "පිටි වර්ග",
+   "spar": [
+    "Flour"
+   ]
+  },
+  {
+   "id": "S005",
+   "cat": "C01",
+   "en": "Sugar & Sweeteners",
+   "si": "සීනි හා පැණි රස",
+   "spar": [
+    "Sugar & Sweeteners"
+   ]
+  },
+  {
+   "id": "S006",
+   "cat": "C01",
+   "en": "Salt",
+   "si": "ලුණු",
+   "spar": [
+    "Salt"
+   ]
+  },
+  {
+   "id": "S007",
+   "cat": "C01",
+   "en": "Sago & Starches",
+   "si": "සාගු හා පිෂ්ඨ",
+   "spar": [
+    "Sago"
+   ]
+  },
+  {
+   "id": "S008",
+   "cat": "C01",
+   "en": "Cereals & Oats",
+   "si": "ධාන්‍ය ආහාර හා ඕට්ස්",
+   "spar": [
+    "Cereals"
+   ]
+  },
+  {
+   "id": "S009",
+   "cat": "C01",
+   "en": "Soya Meat",
+   "si": "සෝයා මස්",
+   "spar": [
+    "Soya Meats"
+   ]
+  },
+  {
+   "id": "S010",
+   "cat": "C02",
+   "en": "Up-country Vegetables",
+   "si": "උඩරට එළවළු",
+   "spar": [
+    "Up Country"
+   ]
+  },
+  {
+   "id": "S011",
+   "cat": "C02",
+   "en": "Low-country Vegetables",
+   "si": "පහතරට එළවළු",
+   "spar": [
+    "Low Country"
+   ]
+  },
+  {
+   "id": "S012",
+   "cat": "C02",
+   "en": "Exotic Vegetables",
+   "si": "විදේශීය එළවළු",
+   "spar": [
+    "Exotic"
+   ]
+  },
+  {
+   "id": "S013",
+   "cat": "C02",
+   "en": "Leafy Greens",
+   "si": "පලා වර්ග",
+   "spar": [
+    "Pola"
+   ]
+  },
+  {
+   "id": "S014",
+   "cat": "C02",
+   "en": "Roots, Onion & Garlic",
+   "si": "අල, ළූණු හා සුදුළූණු",
+   "spar": []
+  },
+  {
+   "id": "S015",
+   "cat": "C02",
+   "en": "Packed Vegetables",
+   "si": "පැකට් කළ එළවළු",
+   "spar": [
+    "Packets & Units"
+   ]
+  },
+  {
+   "id": "S016",
+   "cat": "C03",
+   "en": "Local Fruit",
+   "si": "දේශීය පළතුරු",
+   "spar": [
+    "Fruit Local"
+   ]
+  },
+  {
+   "id": "S017",
+   "cat": "C03",
+   "en": "Imported Fruit",
+   "si": "ආනයනික පළතුරු",
+   "spar": [
+    "Fruit Imported"
+   ]
+  },
+  {
+   "id": "S018",
+   "cat": "C03",
+   "en": "Bananas",
+   "si": "කෙසෙල්",
+   "spar": []
+  },
+  {
+   "id": "S019",
+   "cat": "C03",
+   "en": "Dried & Dessert Fruit",
+   "si": "වියළි හා අතුරුපස පළතුරු",
+   "spar": [
+    "Dessert Fruits"
+   ]
+  },
+  {
+   "id": "S020",
+   "cat": "C04",
+   "en": "Chicken",
+   "si": "කුකුළු මස්",
+   "spar": [
+    "Chicken"
+   ]
+  },
+  {
+   "id": "S021",
+   "cat": "C04",
+   "en": "Beef",
+   "si": "හරක් මස්",
+   "spar": [
+    "Beef"
+   ]
+  },
+  {
+   "id": "S022",
+   "cat": "C04",
+   "en": "Pork",
+   "si": "ඌරු මස්",
+   "spar": [
+    "Pork"
+   ]
+  },
+  {
+   "id": "S023",
+   "cat": "C04",
+   "en": "Mutton & Lamb",
+   "si": "එළු මස් හා බැටළු මස්",
+   "spar": [
+    "Mutton",
+    "Lamb"
+   ]
+  },
+  {
+   "id": "S024",
+   "cat": "C04",
+   "en": "Processed Meat",
+   "si": "සකස් කළ මස් නිෂ්පාදන",
+   "spar": []
+  },
+  {
+   "id": "S025",
+   "cat": "C05",
+   "en": "Fresh Fish",
+   "si": "නැවුම් මාළු",
+   "spar": []
+  },
+  {
+   "id": "S026",
+   "cat": "C05",
+   "en": "Frozen Fish",
+   "si": "ශීත කළ මාළු",
+   "spar": [
+    "Frozen Fish"
+   ]
+  },
+  {
+   "id": "S027",
+   "cat": "C05",
+   "en": "Dried Fish",
+   "si": "කරවල",
+   "spar": [
+    "Dried Fish"
+   ]
+  },
+  {
+   "id": "S028",
+   "cat": "C05",
+   "en": "Sprats",
+   "si": "හාල්මැස්සන්",
+   "spar": []
+  },
+  {
+   "id": "S029",
+   "cat": "C05",
+   "en": "Prawns & Shellfish",
+   "si": "ඉස්සන්, දැල්ලන් හා කකුළුවන්",
+   "spar": []
+  },
+  {
+   "id": "S030",
+   "cat": "C06",
+   "en": "Milk Powder",
+   "si": "කිරිපිටි",
+   "spar": [
+    "Powdered Milk"
+   ]
+  },
+  {
+   "id": "S031",
+   "cat": "C06",
+   "en": "Liquid Milk",
+   "si": "දියර කිරි",
+   "spar": [
+    "Liquid Milk",
+    "Milk & Cream"
+   ]
+  },
+  {
+   "id": "S032",
+   "cat": "C06",
+   "en": "Flavoured Milk",
+   "si": "රස කිරි",
+   "spar": [
+    "Flavoured Milk"
+   ]
+  },
+  {
+   "id": "S033",
+   "cat": "C06",
+   "en": "Condensed Milk",
+   "si": "ඝන කිරි",
+   "spar": [
+    "Condensed Milk"
+   ]
+  },
+  {
+   "id": "S034",
+   "cat": "C06",
+   "en": "Eggs",
+   "si": "බිත්තර",
+   "spar": [
+    "Eggs"
+   ]
+  },
+  {
+   "id": "S035",
+   "cat": "C06",
+   "en": "Cheese",
+   "si": "චීස්",
+   "spar": [
+    "Cheese"
+   ]
+  },
+  {
+   "id": "S036",
+   "cat": "C06",
+   "en": "Butter & Spreads",
+   "si": "බටර් හා ස්ප්‍රෙඩ්",
+   "spar": [
+    "Spreads"
+   ]
+  },
+  {
+   "id": "S037",
+   "cat": "C06",
+   "en": "Curd",
+   "si": "කිරි දහි",
+   "spar": [
+    "Curd"
+   ]
+  },
+  {
+   "id": "S038",
+   "cat": "C06",
+   "en": "Yoghurt",
+   "si": "යෝගට්",
+   "spar": [
+    "Yoghurt",
+    "Drinking Yoghurt"
+   ]
+  },
+  {
+   "id": "S039",
+   "cat": "C06",
+   "en": "Chilled Desserts",
+   "si": "ශීත අතුරුපස",
+   "spar": [
+    "Chilled Desserts",
+    "Sponge Roll"
+   ]
+  },
+  {
+   "id": "S040",
+   "cat": "C06",
+   "en": "Dips & Pates",
+   "si": "ඩිප් හා පේට්",
+   "spar": [
+    "Dips & Pates"
+   ]
+  },
+  {
+   "id": "S041",
+   "cat": "C06",
+   "en": "Ice Cream",
+   "si": "අයිස්ක්‍රීම්",
+   "spar": []
+  },
+  {
+   "id": "S042",
+   "cat": "C07",
+   "en": "Bread",
+   "si": "පාන්",
+   "spar": [
+    "Bread"
+   ]
+  },
+  {
+   "id": "S043",
+   "cat": "C07",
+   "en": "Buns",
+   "si": "බනිස්",
+   "spar": [
+    "Buns"
+   ]
+  },
+  {
+   "id": "S044",
+   "cat": "C07",
+   "en": "Cakes",
+   "si": "කේක්",
+   "spar": [
+    "Cakes"
+   ]
+  },
+  {
+   "id": "S045",
+   "cat": "C07",
+   "en": "Pastries & Confectionery",
+   "si": "පේස්ට්‍රි හා රසකැවිලි",
+   "spar": [
+    "Confectionery"
+   ]
+  },
+  {
+   "id": "S046",
+   "cat": "C07",
+   "en": "Rusks & Bakery Snacks",
+   "si": "රස්ක් හා බේකරි කෙටි ආහාර",
+   "spar": []
+  },
+  {
+   "id": "S047",
+   "cat": "C08",
+   "en": "Tea",
+   "si": "තේ",
+   "spar": [
+    "Tea"
+   ]
+  },
+  {
+   "id": "S048",
+   "cat": "C08",
+   "en": "Coffee",
+   "si": "කෝපි",
+   "spar": [
+    "Coffee",
+    "Iced Beverages (Tea Coffee)"
+   ]
+  },
+  {
+   "id": "S049",
+   "cat": "C08",
+   "en": "Malt Drinks",
+   "si": "මෝල්ට් බීම",
+   "spar": [
+    "Malt Drink"
+   ]
+  },
+  {
+   "id": "S050",
+   "cat": "C08",
+   "en": "Bottled Water",
+   "si": "බෝතල් කළ ජලය",
+   "spar": [
+    "Water"
+   ]
+  },
+  {
+   "id": "S051",
+   "cat": "C08",
+   "en": "Soft Drinks",
+   "si": "සිසිල් බීම",
+   "spar": [
+    "Carbonated Soft Drink",
+    "Carbonated Fruit Juice"
+   ]
+  },
+  {
+   "id": "S052",
+   "cat": "C08",
+   "en": "Energy & Sports Drinks",
+   "si": "ශක්තිජනක බීම",
+   "spar": [
+    "Sports & Energy Drinks"
+   ]
+  },
+  {
+   "id": "S053",
+   "cat": "C08",
+   "en": "Fruit Juice",
+   "si": "පළතුරු යුෂ",
+   "spar": [
+    "Long Life Fruit Juice",
+    "Fruit Juice (Perishable)"
+   ]
+  },
+  {
+   "id": "S054",
+   "cat": "C08",
+   "en": "Cordials & Squashes",
+   "si": "කෝඩියල් හා ස්ක්වෑෂ්",
+   "spar": [
+    "Cordials, Squashes & Concentrated"
+   ]
+  },
+  {
+   "id": "S055",
+   "cat": "C08",
+   "en": "Herbal Drinks",
+   "si": "ඖෂධීය බීම",
+   "spar": []
+  },
+  {
+   "id": "S056",
+   "cat": "C09",
+   "en": "Spices",
+   "si": "කුළුබඩු",
+   "spar": [
+    "Spices"
+   ]
+  },
+  {
+   "id": "S057",
+   "cat": "C09",
+   "en": "Seasoning & Coconut",
+   "si": "රසකාරක හා පොල් ආශ්‍රිත",
+   "spar": [
+    "Seasoning & Coconut Cream"
+   ]
+  },
+  {
+   "id": "S058",
+   "cat": "C09",
+   "en": "Oils & Fats",
+   "si": "ආහාර තෙල් හා මේද",
+   "spar": [
+    "Oils & Fats"
+   ]
+  },
+  {
+   "id": "S059",
+   "cat": "C09",
+   "en": "Sauces",
+   "si": "සෝස් වර්ග",
+   "spar": [
+    "Sauce"
+   ]
+  },
+  {
+   "id": "S060",
+   "cat": "C09",
+   "en": "Mayo & Vinegar",
+   "si": "මයෝ සහ විනාකිරි",
+   "spar": [
+    "Mayo, Salad Dressing & Vinegar"
+   ]
+  },
+  {
+   "id": "S061",
+   "cat": "C09",
+   "en": "Pickles & Chutney",
+   "si": "අච්චාරු හා චට්නි",
+   "spar": [
+    "Pickles & Olives",
+    "Meal Accompaniments"
+   ]
+  },
+  {
+   "id": "S062",
+   "cat": "C09",
+   "en": "Baking & Dessert Aids",
+   "si": "බේකිං හා අතුරුපස ද්‍රව්‍ය",
+   "spar": [
+    "Baking Aids",
+    "Pre Mixes",
+    "Dessert Ingredients"
+   ]
+  },
+  {
+   "id": "S063",
+   "cat": "C09",
+   "en": "Jams & Spreads",
+   "si": "ජෑම් හා ස්ප්‍රෙඩ්",
+   "spar": [
+    "Jams & Spreads"
+   ]
+  },
+  {
+   "id": "S064",
+   "cat": "C09",
+   "en": "Honey, Jaggery & Syrups",
+   "si": "මී පැණි, හකුරු හා සිරප්",
+   "spar": [
+    "Honey & Jaggery",
+    "Syrups & Toppings"
+   ]
+  },
+  {
+   "id": "S065",
+   "cat": "C10",
+   "en": "Biscuits",
+   "si": "බිස්කට්",
+   "spar": [
+    "Biscuits"
+   ]
+  },
+  {
+   "id": "S066",
+   "cat": "C10",
+   "en": "Chocolate & Sweets",
+   "si": "චොකලට් හා රසකැවිලි",
+   "spar": [
+    "Confectionery"
+   ]
+  },
+  {
+   "id": "S067",
+   "cat": "C10",
+   "en": "Chips & Snacks",
+   "si": "අල පෙති හා කෙටි ආහාර",
+   "spar": [
+    "Snacks"
+   ]
+  },
+  {
+   "id": "S068",
+   "cat": "C10",
+   "en": "Nuts",
+   "si": "රටකජු හා කජු",
+   "spar": []
+  },
+  {
+   "id": "S069",
+   "cat": "C10",
+   "en": "Local Sweets",
+   "si": "දේශීය රසකැවිලි",
+   "spar": []
+  },
+  {
+   "id": "S070",
+   "cat": "C11",
+   "en": "Noodles & Pasta",
+   "si": "නූඩ්ල්ස් හා පැස්ටා",
+   "spar": [
+    "Noodles & Pasta"
+   ]
+  },
+  {
+   "id": "S071",
+   "cat": "C11",
+   "en": "Canned Fish",
+   "si": "ටින් මාළු",
+   "spar": [
+    "Canned Fish"
+   ]
+  },
+  {
+   "id": "S072",
+   "cat": "C11",
+   "en": "Canned Meat",
+   "si": "ටින් කළ මස්",
+   "spar": [
+    "Canned Meat"
+   ]
+  },
+  {
+   "id": "S073",
+   "cat": "C11",
+   "en": "Canned Vegetables & Fruit",
+   "si": "ටින් කළ එළවළු හා පළතුරු",
+   "spar": [
+    "Canned Vegetables",
+    "Canned Fruit"
+   ]
+  },
+  {
+   "id": "S074",
+   "cat": "C11",
+   "en": "Soups & Instant Meals",
+   "si": "සුප් හා ක්ෂණික ආහාර",
+   "spar": [
+    "Soups & Herbal Porridge"
+   ]
+  },
+  {
+   "id": "S075",
+   "cat": "C12",
+   "en": "Frozen Sausages & Meatballs",
+   "si": "සොසේජස් හා මස් බෝල",
+   "spar": [
+    "Frozen Meat Ball",
+    "Frozen Sausages"
+   ]
+  },
+  {
+   "id": "S076",
+   "cat": "C12",
+   "en": "Frozen Chicken Products",
+   "si": "ශීත කළ කුකුළු මස් නිෂ්පාදන",
+   "spar": [
+    "Frozen Chicken Rolls / Kievs / Crumbed",
+    "Frozen Formed Meat"
+   ]
+  },
+  {
+   "id": "S077",
+   "cat": "C12",
+   "en": "Frozen Vegetables & Fruit",
+   "si": "ශීත කළ එළවළු හා පළතුරු",
+   "spar": [
+    "Frozen Vegetables",
+    "Frozen Fruits"
+   ]
+  },
+  {
+   "id": "S078",
+   "cat": "C12",
+   "en": "Frozen Convenience",
+   "si": "ශීත කළ ක්ෂණික ආහාර",
+   "spar": [
+    "Frozen convenience",
+    "Frozen Vegetarian"
+   ]
+  },
+  {
+   "id": "S079",
+   "cat": "C13",
+   "en": "Soap & Body Wash",
+   "si": "සබන් හා ශරීර සෝදන",
+   "spar": [
+    "Soaps",
+    "Body Wash & Shower Gel"
+   ]
+  },
+  {
+   "id": "S080",
+   "cat": "C13",
+   "en": "Hair Care",
+   "si": "කෙස් සත්කාරක",
+   "spar": [
+    "Shampoo & Conditioner",
+    "Hair Care"
+   ]
+  },
+  {
+   "id": "S081",
+   "cat": "C13",
+   "en": "Oral Care",
+   "si": "දන්ත සත්කාරක",
+   "spar": [
+    "Oral Care"
+   ]
+  },
+  {
+   "id": "S082",
+   "cat": "C13",
+   "en": "Skin Care",
+   "si": "සමේ සත්කාරක",
+   "spar": [
+    "Skin Care"
+   ]
+  },
+  {
+   "id": "S083",
+   "cat": "C13",
+   "en": "Men's Grooming & Shaving",
+   "si": "පිරිමි සත්කාරක හා රැවුල කැපීම",
+   "spar": [
+    "Men's Grooming",
+    "Hair Removal & Shaves"
+   ]
+  },
+  {
+   "id": "S084",
+   "cat": "C13",
+   "en": "Deodorants & Perfumes",
+   "si": "ඩියෝඩරන්ට් හා සුවඳ විලවුන්",
+   "spar": [
+    "Deodorants",
+    "Perfumes"
+   ]
+  },
+  {
+   "id": "S085",
+   "cat": "C13",
+   "en": "Feminine Care",
+   "si": "කාන්තා සනීපාරක්ෂක",
+   "spar": [
+    "Feminine Products"
+   ]
+  },
+  {
+   "id": "S086",
+   "cat": "C13",
+   "en": "Hand Wash & Sanitizers",
+   "si": "අත් සෝදන හා සැනිටයිසර්",
+   "spar": [
+    "Hand Wash & Sanitizers"
+   ]
+  },
+  {
+   "id": "S087",
+   "cat": "C13",
+   "en": "Tissue & Wipes",
+   "si": "ටිෂූ හා තෙත් පිසදමන",
+   "spar": [
+    "Facial Tissue & Wet Wipes"
+   ]
+  },
+  {
+   "id": "S088",
+   "cat": "C13",
+   "en": "Medicinals & First Aid",
+   "si": "ඖෂධ හා ප්‍රථමාධාර",
+   "spar": [
+    "Medicinals",
+    "Condoms"
+   ]
+  },
+  {
+   "id": "S089",
+   "cat": "C14",
+   "en": "Infant Formula",
+   "si": "ළදරු කිරිපිටි",
+   "spar": [
+    "Baby Milk Powder"
+   ]
+  },
+  {
+   "id": "S090",
+   "cat": "C14",
+   "en": "Baby Food",
+   "si": "ළදරු ආහාර",
+   "spar": [
+    "Baby Cereals",
+    "Baby Biscuits & Rusk"
+   ]
+  },
+  {
+   "id": "S091",
+   "cat": "C14",
+   "en": "Diapers & Baby Goods",
+   "si": "ඩයපර් හා ළදරු භාණ්ඩ",
+   "spar": [
+    "Baby Goods"
+   ]
+  },
+  {
+   "id": "S092",
+   "cat": "C14",
+   "en": "Baby Care",
+   "si": "ළදරු සත්කාරක",
+   "spar": []
+  },
+  {
+   "id": "S093",
+   "cat": "C15",
+   "en": "Laundry",
+   "si": "රෙදි සේදීම",
+   "spar": [
+    "Laundry Care"
+   ]
+  },
+  {
+   "id": "S094",
+   "cat": "C15",
+   "en": "Cleaning",
+   "si": "පිරිසිදු කිරීමේ ද්‍රව්‍ය",
+   "spar": [
+    "Cleaning Consumables",
+    "Brushware"
+   ]
+  },
+  {
+   "id": "S095",
+   "cat": "C15",
+   "en": "Air Fresheners",
+   "si": "වායු සුවඳකාරක",
+   "spar": [
+    "Air Fresheners"
+   ]
+  },
+  {
+   "id": "S096",
+   "cat": "C15",
+   "en": "Pest Control",
+   "si": "කෘමිනාශක හා මදුරු පාලනය",
+   "spar": [
+    "Pest Control"
+   ]
+  },
+  {
+   "id": "S097",
+   "cat": "C15",
+   "en": "Kitchenware",
+   "si": "මුළුතැන්ගෙයි උපකරණ",
+   "spar": [
+    "Kitchenware",
+    "BBQ Aids"
+   ]
+  },
+  {
+   "id": "S098",
+   "cat": "C15",
+   "en": "Candles & Matches",
+   "si": "ඉටිපන්දම් හා ගිනිකූරු",
+   "spar": [
+    "Candles & Matches"
+   ]
+  },
+  {
+   "id": "S099",
+   "cat": "C15",
+   "en": "Electrical & Batteries",
+   "si": "විදුලි උපාංග හා බැටරි",
+   "spar": [
+    "Electrical Accessories"
+   ]
+  },
+  {
+   "id": "S100",
+   "cat": "C15",
+   "en": "Hardware & Car Care",
+   "si": "දෘඪාංග හා වාහන සත්කාර",
+   "spar": [
+    "Hardware",
+    "Car Care",
+    "Shoe Polish & Brush"
+   ]
+  },
+  {
+   "id": "S101",
+   "cat": "C15",
+   "en": "Tissue Rolls & Garbage Bags",
+   "si": "ටොයිලට් රෝල් හා කුණු බෑග්",
+   "spar": []
+  },
+  {
+   "id": "S102",
+   "cat": "C15",
+   "en": "Party & Other",
+   "si": "උත්සව හා වෙනත්",
+   "spar": [
+    "Party Supplies",
+    "Other"
+   ]
+  },
+  {
+   "id": "S103",
+   "cat": "C16",
+   "en": "Stationery",
+   "si": "ලිපිද්‍රව්‍ය",
+   "spar": [
+    "Stationery & Office Supplies"
+   ]
+  },
+  {
+   "id": "S104",
+   "cat": "C16",
+   "en": "School Supplies",
+   "si": "පාසල් උපකරණ",
+   "spar": []
+  },
+  {
+   "id": "S105",
+   "cat": "C16",
+   "en": "Toys & Games",
+   "si": "සෙල්ලම් බඩු",
+   "spar": [
+    "Toys & Games"
+   ]
+  },
+  {
+   "id": "S106",
+   "cat": "C17",
+   "en": "Pet Food & Care",
+   "si": "සුරතල් සතුන්ගේ ආහාර හා සත්කාර",
+   "spar": [
+    "Pet Care"
+   ]
+  }
+ ]
+}

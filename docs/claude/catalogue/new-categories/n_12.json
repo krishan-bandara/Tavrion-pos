@@ -1,0 +1,354 @@
+{
+ "items": [
+  {
+   "si": "මැගී පොල් කිරි කුඩු 150g",
+   "en": "Maggi Coconut Milk Powder 150g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 285,
+   "stock": 20,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් පොල් කිරි කුඩු 300g",
+   "en": "Kist Coconut Milk Powder 300g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 520,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් පොල් කිරි කුඩු 80g",
+   "en": "Kist Coconut Milk Powder 80g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 170,
+   "stock": 25,
+   "reorder": 8,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් පොල් කිරි ටින් 400ml",
+   "en": "Kist Coconut Milk Can 400ml",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 490,
+   "stock": 18,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "මැගී පොල් කිරි ටින් 400ml",
+   "en": "Maggi Coconut Milk Can 400ml",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 510,
+   "stock": 18,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "මොතා පොල් කිරි කුඩු 300g",
+   "en": "Motha Coconut Milk Powder 300g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 480,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පොල් කිරි පැකට් 200ml",
+   "en": "Coconut Milk Packet 200ml",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 240,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පොල් ක්‍රීම් ටින් 270ml",
+   "en": "Coconut Cream Can 270ml",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 420,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කුඩු කළ පොල් 100g",
+   "en": "Desiccated Coconut 100g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 190,
+   "stock": 20,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "කුඩු කළ පොල් 250g",
+   "en": "Desiccated Coconut 250g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 430,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "පොල් ක්‍රීම් කුඩු 100g",
+   "en": "Coconut Cream Powder 100g",
+   "sub": "SUB043",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "පොල් කිරි (ලිහිල්)",
+   "en": "Fresh Coconut Milk (loose)",
+   "sub": "SUB043",
+   "unit": "l",
+   "price": 900,
+   "stock": 10,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් සෝයා සෝස් 200ml",
+   "en": "Kist Soy Sauce 200ml",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 260,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් චිලි සෝස් 400g",
+   "en": "Kist Chilli Sauce 400g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 430,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මැගී චිලි සෝස් 400g",
+   "en": "Maggi Chilli Sauce 400g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 460,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් ටොමැටෝ සෝස් 200g",
+   "en": "Kist Tomato Sauce 200g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 230,
+   "stock": 18,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් ටොමැටෝ සෝස් 700g",
+   "en": "Kist Tomato Sauce 700g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 650,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මැගී ටොමැටෝ කෙචප් 200g",
+   "en": "Maggi Tomato Ketchup 200g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 250,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "එඩින්බරෝ ටොමැටෝ සෝස් 400g",
+   "en": "Edinborough Tomato Sauce 400g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 410,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රානි සුදු විනාකිරි 375ml",
+   "en": "Rani White Vinegar 375ml",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 170,
+   "stock": 20,
+   "reorder": 6,
+   "src": "est"
+  },
+  {
+   "si": "එලිෆන්ට් හවුස් විනාකිරි 375ml",
+   "en": "Elephant House Vinegar 375ml",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 180,
+   "stock": 15,
+   "reorder": 5,
+   "src": "est"
+  },
+  {
+   "si": "තල් විනාකිරි 750ml",
+   "en": "Palmyrah Vinegar 750ml",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 320,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ඇපල් සයිඩර් විනාකිරි 500ml",
+   "en": "Apple Cider Vinegar 500ml",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 890,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "ලංකා මේයොනීස් 300g",
+   "en": "Lanka Mayonnaise 300g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 480,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් මේයොනීස් 250g",
+   "en": "Kist Mayonnaise 250g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 520,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "මැගී සෝයා සෝස් 200ml",
+   "en": "Maggi Soy Sauce 200ml",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රානි මිරිස් සෝස් 200g",
+   "en": "Rani Chilli Sauce 200g",
+   "sub": "SUB044",
+   "unit": "pcs",
+   "price": 210,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලංකා පික්ල් අඹ අච්චාරු 300g",
+   "en": "Lanka Pickle Mango Pickle 300g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 380,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලංකා පික්ල් ලූනු අච්චාරු 300g",
+   "en": "Lanka Pickle Onion Pickle 300g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 360,
+   "stock": 12,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "ලංකා පික්ල් දෙහි අච්චාරු 300g",
+   "en": "Lanka Pickle Lime Pickle 300g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 390,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "සිලෝන් ස්පයිස් අඹ චට්නි 350g",
+   "en": "Ceylon Spice Mango Chutney 350g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 520,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "කිස්ට් අඹ චට්නි 350g",
+   "en": "Kist Mango Chutney 350g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 560,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "රානි වම්බටු අච්චාරු 200g",
+   "en": "Rani Brinjal Pickle 200g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 310,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  },
+  {
+   "si": "එඩින්බරෝ මිශ්‍ර එළවළු අච්චාරු 350g",
+   "en": "Edinborough Mixed Vegetable Pickle 350g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 430,
+   "stock": 8,
+   "reorder": 3,
+   "src": "est"
+  },
+  {
+   "si": "මොතා ලූනු සම්බෝල 200g",
+   "en": "Motha Onion Sambol 200g",
+   "sub": "SUB045",
+   "unit": "pcs",
+   "price": 290,
+   "stock": 10,
+   "reorder": 4,
+   "src": "est"
+  }
+ ]
+}

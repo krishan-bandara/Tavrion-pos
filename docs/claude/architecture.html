@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tavrion POS Architecture</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap">
+<nav><a href="plan.html">Plan</a><a class="on" href="architecture.html">Architecture</a><a href="database.html">Database</a><a href="security.html">Security</a><a href="localization-hardware.html">Sinhala &amp; Hardware</a></nav>
+<h1>Architecture</h1><p class="sub">Offline-first desktop app with background sync to Supabase</p>
+
+<h2>1. Option comparison</h2>
+<table><tr><th>Option</th><th>Pros</th><th>Cons</th><th>Verdict</th></tr>
+<tr><td>Cloud-only Supabase</td><td>Simple, remote access</td><td>Sales stop when WiFi/ISP fails; latency per click</td><td>Rejected</td></tr>
+<tr><td><b>Local SQLite + Supabase sync</b></td><td>Instant, offline, cheap, owner remote view</td><td>Sync logic to build</td><td><span class="tag">Chosen</span></td></tr>
+<tr><td>Local Postgres</td><td>Same SQL as cloud</td><td>Heavy service on 8 GB old PC, admin burden</td><td>Rejected</td></tr>
+<tr><td>Local only</td><td>Simplest</td><td>No remote view, backup risk</td><td>Fallback if sync is cut</td></tr></table>
+
+<h2>2. System diagram</h2>
+<pre>
+┌──────────────────────── Marcopos all-in-one (Windows 10) ────────────────────────┐
+│  Tauri shell (WebView2)                                                          │
+│  ┌──────────────────────┐  invoke()   ┌────────────────────────────────────────┐ │
+│  │ React UI (Sinhala)   │◄──────────►│ Rust core                              │ │
+│  │ POS · Catalog · Stock│            │  ├ db: SQLite (SQLCipher, WAL)          │ │
+│  │ Credit · Reports     │            │  ├ services: sales, stock, credit, shift│ │
+│  │ Zustand + TanStack Q │            │  ├ hardware: printer, drawer, scanner   │ │
+│  └──────────────────────┘            │  ├ sync: outbox → Supabase (background) │ │
+│                                      │  └ backup: encrypted snapshot scheduler │ │
+│                                      └───────────────┬────────────────────────┘ │
+└───────────────┬──────────────────────────────────────┼──────────────────────────┘
+                │ USB                                  │ HTTPS (when online)
+     Thermal printer + cash drawer (RJ11)              ▼
+     Barcode scanner (keyboard wedge)       ┌──────────────────────────────┐
+                                            │ Supabase                     │
+                                            │  Postgres (RLS) · Auth       │
+                                            │  Storage (backups) · Edge Fn │
+                                            └──────────────┬───────────────┘
+                                                           ▼
+                                            Owner dashboard (web/phone, read-only)
+</pre>
+
+<h2>3. Layers</h2>
+<table><tr><th>Layer</th><th>Responsibility</th><th>Rule</th></tr>
+<tr><td>UI (React)</td><td>Screens, keypad, i18n, optimistic UX</td><td>No business rules, no SQL; only calls Tauri commands</td></tr>
+<tr><td>Commands (Rust)</td><td>Typed API, input validation, permission check</td><td>Every command checks session role</td></tr>
+<tr><td>Services (Rust)</td><td>Sale, stock, credit, shift, report logic</td><td>One DB transaction per business action</td></tr>
+<tr><td>Repo (Rust)</td><td>SQL via rusqlite, migrations</td><td>Parameterised queries only</td></tr>
+<tr><td>Hardware</td><td>ESC/POS builder, spooler RAW print, drawer pulse</td><td>Print jobs queued in DB, retried</td></tr>
+<tr><td>Sync</td><td>Outbox push, change pull (phase 2)</td><td>Idempotent upserts by UUID</td></tr></table>
+
+<h2>4. Sale flow (critical path)</h2>
+<pre>
+Scan/tap items → cart (memory) → Pay
+  BEGIN TRANSACTION (SQLite)
+    insert sale + sale_items + payments
+    insert stock_movements (negative)
+    update customer credit ledger (if credit)
+    insert audit_log, outbox rows, print_job
+  COMMIT                         ← sale is now durable
+→ print receipt (async) + kick drawer → UI shows "done"
+→ sync worker later pushes outbox rows to Supabase
+</pre>
+
+<h2>5. Sync design</h2>
+<ul>
+<li><b>Direction (v1):</b> device → cloud only. The shop PC is the master for its own data, so no conflict resolution is needed. Cloud → device only for config (prices pushed from owner later).</li>
+<li><b>Outbox pattern:</b> table <code>outbox(id, table, row_id, op, payload, created_at, sent_at, attempts)</code>; worker batches 100 rows, POSTs via Supabase REST/RPC with device JWT, marks sent on 2xx, exponential backoff.</li>
+<li><b>Idempotent:</b> UUID v7 primary keys + <code>upsert on conflict (id)</code>; replays are safe.</li>
+<li><b>Ordering:</b> per-table sequence <code>device_seq</code> to detect gaps.</li>
+<li><b>Connectivity:</b> health check every 60 s; sync only on success; never blocks UI.</li>
+<li><b>Backups:</b> daily 'VACUUM INTO' snapshot → zip → AES-256 → local folder + Supabase Storage (keep 30 days).</li>
+</ul>
+
+<h2>6. Frontend structure</h2>
+<pre>
+src/
+  app/            routes, layout, error boundary
+  features/pos/ catalog/ stock/ customers/ shifts/ reports/ settings/
+  components/     Keypad, ProductTile, BillLine, Modal (large touch)
+  i18n/           si.json  en.json
+  lib/            tauri.ts (typed invoke), money.ts, format.ts
+src-tauri/src/
+  commands/ services/ db/ hardware/ sync/ security/ main.rs
+  migrations/0001_init.sql ...
+</pre>
+
+<h2>7. Key technology notes</h2>
+<ul>
+<li><b>Tauri 2</b> needs WebView2 (included in Win10 21H2+ updates; installer ships the bootstrapper).</li>
+<li><b>SQLite</b> in WAL mode, <code>synchronous=FULL</code> for sale commits (power-cut safety).</li>
+<li><b>Money</b> as <code>INTEGER</code> cents; rounding rule defined once in Rust.</li>
+<li><b>Updates:</b> Tauri updater with signed releases from GitHub; manual approve by owner.</li>
+<li><b>Logging:</b> rotating log file in <code>%APPDATA%\TavrionPOS\logs</code>, no personal data.</li>
+<li><b>Remote support:</b> optional AnyDesk/RustDesk installed separately.</li>
+</ul>
+
+<h2>8. Environments</h2>
+<table><tr><th>Env</th><th>Supabase</th><th>Use</th></tr><tr><td>dev</td><td>Supabase branch or local CLI</td><td>Development</td></tr><tr><td>prod</td><td>Single project, region ap-south-1 (Mumbai) or ap-southeast-1 (Singapore)</td><td>Shop data</td></tr></table>
+
+<h2>9. Decisions log (ADR summary)</h2>
+<ol><li>ADR-1 Offline-first SQLite + Supabase sync.</li><li>ADR-2 Tauri over Electron (RAM, size, Rust hardware access).</li><li>ADR-3 Bitmap receipts for Sinhala.</li><li>ADR-4 Stock as movement ledger.</li><li>ADR-5 UUID v7 keys, integer money.</li></ol>
+</div></body></html>
